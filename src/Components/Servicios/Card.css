@@ -1,0 +1,40 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 300px; 
+}
+  
+.card-image {
+    width: 70%;
+    margin-left: 50px ;
+    height: 200px;
+    object-fit: cover;
+    /* margin: auto; */
+}
+  
+.card-content {
+    padding: 16px;
+    margin-left: 10px;
+}
+  
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+  
+.card-description {
+    font-size: 1rem;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#div{
+    margin-left: -150px;
+ 
+}
+  
