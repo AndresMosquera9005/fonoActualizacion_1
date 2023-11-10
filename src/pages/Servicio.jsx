@@ -15,14 +15,15 @@ import docentes from "../icon/Taller a docentes.png"
 import asesoriaG from "../icon/Asesoría gratuita.png"
 import asosacion from "../icon/imagesAsociaciones e IPS.png"
 import domicilio from "../icon/domicilio.jpg"
+import fondoUno from "../Components//Estilos//Fondos/uno.jpg"
 
 const Servicio = () => {
   return (
     <>
-      <h1>Servicio</h1>
+      <h1>Servicios</h1>
       <div id='div' className='tamañosImagenes'>
         <Row>
-          <Col col-md-4 >
+          <Col col-md-4>
             <Card
               img = {respiracion}
               title = "Terapia Respiratoria"
@@ -127,7 +128,6 @@ const Servicio = () => {
             />
           </Col>
         </Row>
-
       </div>
     </>
   )

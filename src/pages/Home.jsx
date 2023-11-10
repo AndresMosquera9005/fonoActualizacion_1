@@ -52,7 +52,6 @@ function Home() {
       <h1>Sobre nosotros</h1>
       <p className='parrafo'>Creemos que el servicio es una expresión del amor y la compasión. Cuando servimos a los demás, estamos poniendo nuestro corazón en acción. Estamos demostrando que nos importan, que nos preocupamos por su bienestar.</p>
 
-      
     </div>
   )
 }

@@ -3,7 +3,8 @@
     border-radius: 8px;
     overflow: hidden;
     margin: 10px;
-    width: 300px; 
+    width: 300px;
+    min-height: 90%;
 }
   
 .card-image {
@@ -34,7 +35,6 @@ h1{
 }
 
 #div{
-    margin-left: -150px;
- 
+    margin-left: -150px; 
 }
-  
+
