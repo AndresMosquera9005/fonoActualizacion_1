@@ -5,6 +5,7 @@ import docD from "../image/doctora/doctora_d.jpg";
 import correo from "../icon/correo.jpg";
 import horario from "../icon/horario2.jpg";
 import telefono from "../icon/telefono.png";
+import Preguntas from '../Components/Preguntas/Preguntas';
 
 function Home() {
   return (
@@ -52,6 +53,7 @@ function Home() {
       <h1>Sobre nosotros</h1>
       <p className='parrafo'>Creemos que el servicio es una expresión del amor y la compasión. Cuando servimos a los demás, estamos poniendo nuestro corazón en acción. Estamos demostrando que nos importan, que nos preocupamos por su bienestar.</p>
 
+      <Preguntas />
     </div>
   )
 }
