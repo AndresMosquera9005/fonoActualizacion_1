@@ -28,19 +28,20 @@
 }
 
 .parrafoUno{
-    margin-left: 50%;
-    margin-right: 5%;
+    /* margin-left: 50%; */
+    /* margin-right: 5%;     */
 }
 
 .docD{
-    width: 15%;
+    margin-top: 10%;
+    width: 50% !important;
     border-radius: 50% ;
 }
 
-#parrafoUno{
-    margin-top: -40%;
-    margin-left: -50%;
-    text-align: start !important;
+#parrafoPrincipal{
+    margin-top: 10% !important;
+    margin-left: -30% !important;
+    text-align: start;
 }
 
 #Row2 {
@@ -68,3 +69,13 @@
     margin: 10px;    
 }
 
+.divCard{
+    margin-left: 10%;
+}
+
+.buttonHeader {
+    margin-left: 30%;
+}
+.cardBody{
+    margin-left: 20%;
+}

@@ -1,43 +1,25 @@
-import React from 'react'
-import { Col, Row } from 'react-bootstrap'
-import CardPreguntas from './CardPreguntas'
+import React, { useState } from "react";
+import { Accordion, Button, Card } from "react-bootstrap";
+import "../Estilos/Home.css"
 
 function Preguntas() {
-
+  const [openTab, setOpenTab] = useState("0");
+  
   return (
-    <div>
-        <h1>Preguntas frecuentes</h1>
-        <div>
-            <Row>
-                <Col col-md-12="value.toString()">
-                    <CardPreguntas
-                        title ="¿Cómo puede ayudarme un fonoaudiólogo particular?"
-                        description = "Contar con un fonoaudiólogo particular permite el vínculo paciente y profesional de manera que se pueda ejecutar un proceso de evaluación y rehabilitación individualizado de acuerdo a las necesidades de cada paciente."
-                        
-                    />                
-                </Col>               
-            </Row>
-
-            <Row>
-                <Col col-md-12="value.toString()">
-                    <CardPreguntas
-                        title = "¿Cómo puedo obtener una cita?"
-                        description = "Puedes agendar una cita por vía telefónica o por medio de nuestro chat de Whatsapp."
-                    />
-                </Col>                
-            </Row>
-            <Row>
-                <Col col-md-12="value.toString()">
-                    <CardPreguntas
-                        title = "¿Cuál es su cobertura del servicio?"
-                        description = "Contamos con cobertura en todas las zonas de la ciudad de Bogotá"
-                    />
-                </Col>
-                    
-            </Row>
-        </div>
+    <div className="divCard">
+      <Accordion defaultActiveKey={openTab}>
+        <Accordion as={Button} variant="link" className="buttonHeader" onClick={() => setOpenTab("0")}>
+          Javier Mosquera
+        </Accordion>
+        <Accordion.Collapse eventKey="0">
+          <Card.Body className="cardBody">
+            Javier Andres Mosquera Rodriguez alias (yuca rica)
+          </Card.Body>
+        </Accordion.Collapse>
+        
+      </Accordion>
     </div>
-  )
+  );
 }
 
-export default Preguntas
+export default Preguntas;

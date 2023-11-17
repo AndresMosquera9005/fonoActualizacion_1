@@ -1,25 +1,7 @@
-.container{
-    display: inline-block;
-    margin: 10px;    
-}
-
-.contenido{
-    display: none;
-}
-
-.texto{
-    color: black;
+.divCard{
     margin-left: 10%;
 }
 
-.titulo{
-    color: black;
-    margin-right: -340%;
-}
-
-button {
-    margin-right: -340% !important;
-    margin-left: 160%;
-    background-color: aqua;
-    width: 120%;
+.buttonHeader {
+    margin-left: 30%;
 }
