@@ -8,14 +8,17 @@ function Preguntas() {
   return (
     <div className="divCard">
       <Accordion defaultActiveKey={openTab}>
-        <Accordion as={Button} variant="link" className="buttonHeader" onClick={() => setOpenTab("0")}>
-          Javier Mosquera
-        </Accordion>
-        <Accordion.Collapse eventKey="0">
-          <Card.Body className="cardBody">
-            Javier Andres Mosquera Rodriguez alias (yuca rica)
-          </Card.Body>
-        </Accordion.Collapse>
+        <Card>
+          <Accordion as={Button} variant="link" className="buttonHeader" onClick={() => setOpenTab("0")}>
+            Javier Mosquera
+          </Accordion>
+          <Accordion.Collapse eventKey="0">
+            <Card.Body className="cardBody">
+              Javier Andres Mosquera Rodriguez alias (yuca rica)
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
+        
         
       </Accordion>
     </div>

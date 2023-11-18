@@ -23,7 +23,7 @@ const App = () => {
         </Routes>
       </Suspense>
       {/* <Preguntas /> */}
-      <RedesSociales />  
+      {/* <RedesSociales />   */}
     </Router>    
   )
   
