@@ -1,10 +1,10 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import imagen from "../image/domiciliario.png"
-import adulto1 from "../image/etapaBebeAdulto.jpg"
-import adulto2 from "../image/etapaBebeAdulto2.jpg"
+import imagen from "../image/sin fondo/domiciliario2-1.png"
+import adulto1 from "../image/sin fondo/etapaBebeAdulto-.png"
+import adulto2 from "../image/sin fondo/etapaBebeAdulto2.png"
 import RedesSociales from '../Components/RedesSociales/RedesSociales'
-//import "../Estilos/Home.css"
+import "../Components/Estilos/Home.css"
 
 function Portafolio() {
 
@@ -37,8 +37,8 @@ function Portafolio() {
         <h1>Cuidado de la salud</h1>
         <Row>    
           <Col col-md-4>
-            <ul>
-              <li>Primera infanca</li>
+            <ul id='cuidadSalud'>
+              <li>Primera infancia</li>
               <li>Infancia</li>
               <li>Adolescencia</li>
               <li>Juventud</li>
@@ -52,7 +52,9 @@ function Portafolio() {
           </Col>
         </Row>
       </div>
-      <RedesSociales />
+      <div id='redesSociales'>
+        <RedesSociales />
+      </div>
     </div>
   )
 }

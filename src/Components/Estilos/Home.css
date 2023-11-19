@@ -106,7 +106,20 @@ body{
     width: 40%;
 }
 
-#fondo{
+/* #fondo{
     background-image: url("Fondos/tres.jpeg");
+} */
+
+#redesSociales{
+    margin-top: 10%;
 }
 
+.separacionIconos{
+    margin-top: 10%;
+    height: 40px;
+    padding: 10px;
+}
+
+#cuidadSalud{
+    margin-left: -20%;
+}

@@ -1,5 +1,4 @@
 import React from 'react'
-import "../Components/Servicios/Card.css"
 import { Col, Row } from 'react-bootstrap';
 import Card from '../Components/Servicios/Card'
 import terapiaLenguaje from "../icon/icon1.png"
@@ -16,10 +15,13 @@ import asesoriaG from "../icon/Asesoría gratuita.png"
 import asosacion from "../icon/imagesAsociaciones e IPS.png"
 import domicilio from "../icon/domicilio.jpg"
 import fondoUno from "../Components//Estilos//Fondos/uno.jpg"
+import RedesSociales from '../Components/RedesSociales/RedesSociales';
+import "../Components/Servicios/Card.css"
 
 const Servicio = () => {
   return (
     <>
+    
       <h1>Servicios</h1>
       <div id='div' className='tamañosImagenes'>
         <Row>
@@ -129,6 +131,7 @@ const Servicio = () => {
           </Col>
         </Row>
       </div>
+      <RedesSociales />
     </>
   )
 }
