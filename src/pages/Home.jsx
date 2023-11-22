@@ -1,11 +1,11 @@
 import React from 'react';
-import "../Components/Estilos/Home.css";
 import { Col, Row } from 'react-bootstrap';
 import docD from "../image/doctora/doctora_d.jpg";
 import correo from "../icon/correo.jpg";
 import horario from "../icon/horario2.jpg";
 import telefono from "../icon/telefono.png";
 import Preguntas from '../Components/Preguntas/Preguntas';
+import "../Components/Estilos/Home.css";
 
 function Home() {
   return (
@@ -51,7 +51,7 @@ function Home() {
         </Col>
       </Row>
 
-      <h1>Sobre nosotros</h1>
+      <h1 className='datosTitulo'>Sobre nosotros</h1>
       <p className='parrafo'>Creemos que el servicio es una expresión del amor y la compasión. Cuando servimos a los demás, estamos poniendo nuestro corazón en acción. Estamos demostrando que nos importan, que nos preocupamos por su bienestar.</p>
 
       <Preguntas />

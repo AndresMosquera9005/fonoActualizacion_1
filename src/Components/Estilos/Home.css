@@ -8,14 +8,14 @@ body{
 }
 
 .numberphome{
-    color: black;
+    color:mediumspringgreen !important ;
     font-family: cursive;
     text-align: center;
 }
 
 .card {
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 60px;
     overflow: hidden;
     margin: 10px;
     width: 300px;
@@ -30,10 +30,10 @@ body{
     color: black !important;
 }
 
-.parrafoUno{
-    /* margin-left: 50%; */
-    /* margin-right: 5%;     */
-}
+/* .parrafoUno{
+    margin-left: 50%;
+    margin-right: 5%;    
+} */
 
 .docD{
     margin-top: 10%;
@@ -42,6 +42,7 @@ body{
 }
 
 #parrafoPrincipal{
+    color:mediumspringgreen !important;
     margin-top: 20% !important;
     margin-left: -40% !important;
     margin-right: 10%;
@@ -54,10 +55,11 @@ body{
 
 #fono{
     margin-left: 10%;
+    color: blue;
 }
 
 .parrafo{
-    color: black;
+    color:mediumspringgreen;
     margin-left: 20%;
     margin-right: 10% ;
     margin-top: 1%;
@@ -106,9 +108,10 @@ body{
     width: 40%;
 }
 
-/* #fondo{
+#fondo{
     background-image: url("Fondos/tres.jpeg");
-} */
+    filter: brightness(120%);
+}
 
 #redesSociales{
     margin-top: 10%;
@@ -122,4 +125,44 @@ body{
 
 #cuidadSalud{
     margin-left: -20%;
+}
+
+.significados{
+    color: black;
+    font-family: cursive;
+    margin-left: 20%;
+    margin-right: 10% ;
+    margin-top: 1%;
+}
+
+
+/* Preguntas */
+.col{
+    padding-left: 1%;
+}
+
+.preguntas{
+    padding-left: 0%;
+}
+
+.description{
+    color: black;    
+}
+
+.tituloPortafolio{
+    color: blue;
+}
+
+
+/* MISION VISION Y VALORES */
+.tituloMiViVa{
+    color:blue ;
+    font-family: cursive !important;
+}
+.subTilulosMiViVa{
+    color: blue;
+    font-family: cursive !important;
+}
+.parrafoMiViVa{
+    color:mediumspringgreen !important;
 }

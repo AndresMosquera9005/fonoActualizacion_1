@@ -26,8 +26,7 @@
 }
   
 .card-description {
-    font-size: 1rem;
-    
+    font-size: 1rem;    
 }
 
 h1{
@@ -38,3 +37,14 @@ h1{
     margin-left: -150px; 
 }
 
+.card-title{
+    color: blue;
+
+}
+.card-description{
+    color:mediumspringgreen !important;
+}
+
+.tituloServicio{
+    color: blue;
+}
