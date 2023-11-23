@@ -1,6 +1,6 @@
 .Menu{
-    background-color: black;
-    color: white !important;
+    /* background-color: black; */
+    /* color: white !important; */
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -8,6 +8,10 @@
     margin-left: -1%;
     margin-right: -1%;
     margin-top: -1%;
+}
+
+#ListaMenu{
+    margin-right: 10%;
 }
 
 #ListaMenu ul {
@@ -19,6 +23,7 @@
 
 #ListaMenu ul li {
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 #ListaMenu ul li:last-child {
@@ -28,9 +33,19 @@
 
 #Logo{
     width: 100px;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
-p{
-    color: white;
+.buttonHeader{
+    color: aqua;
+    background-color: blue;
+    padding: 1%;
+    width: 100px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+#fondoHeader{
+    background-image: url("../Estilos/Fondos/tres.jpeg");
+    filter: brightness(120%);
 }

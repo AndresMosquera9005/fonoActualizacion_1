@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import docD from "../image/doctora/doctora_d.jpg";
-import correo from "../icon/correo.jpg";
-import horario from "../icon/horario2.jpg";
-import telefono from "../icon/telefono.png";
+import correo from "../icon/correoAzul.png";
+import horario from "../icon/horarioAtencion.png";
+import telefono from "../icon/telefoAzul.png";
 import Preguntas from '../Components/Preguntas/Preguntas';
 import "../Components/Estilos/Home.css";
 

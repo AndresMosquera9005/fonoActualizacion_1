@@ -32,7 +32,7 @@ function MisionVision() {
           </div>
         </div>
       </div>
-      <RedesSociales />
+      <RedesSociales /> 
 
     </div>
     </>

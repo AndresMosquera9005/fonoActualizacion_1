@@ -15,7 +15,7 @@ body{
 
 .card {
     border: 1px solid #ccc;
-    border-radius: 60px;
+    border-radius: 50px !important;
     overflow: hidden;
     margin: 10px;
     width: 300px;
@@ -108,10 +108,9 @@ body{
     width: 40%;
 }
 
-#fondo{
-    background-image: url("Fondos/tres.jpeg");
-    filter: brightness(120%);
-}
+/* MISION VISION Y CALORES */
+
+
 
 #redesSociales{
     margin-top: 10%;
@@ -165,4 +164,9 @@ body{
 }
 .parrafoMiViVa{
     color:mediumspringgreen !important;
+}
+
+#fondo{
+    background-image: url("Fondos/tres.jpeg");
+    filter: brightness(120%);
 }
