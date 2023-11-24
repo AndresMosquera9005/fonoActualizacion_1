@@ -81,9 +81,11 @@ body{
     margin-top: 50%;
 }
 
-.buttonHeader {
+/* .buttonHeader {
     margin-left: 30%;
-}
+    width: 100px ;
+    height: 100px;
+} */
 .cardBody{
     margin-left: 20%;
 }
@@ -108,9 +110,8 @@ body{
     width: 40%;
 }
 
-/* MISION VISION Y CALORES */
 
-
+/* MISION VISION Y VALORES */
 
 #redesSociales{
     margin-top: 10%;
@@ -167,6 +168,11 @@ body{
 }
 
 #fondo{
+    background-image: url("Fondos/tres.jpeg");
+    filter: brightness(120%);
+}
+
+#fondoCardPreguntas{
     background-image: url("Fondos/tres.jpeg");
     filter: brightness(120%);
 }

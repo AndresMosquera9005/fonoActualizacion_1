@@ -1,14 +1,14 @@
 import React from 'react'
-import "../Components/Estilos/misionvision.css"
 import RedesSociales from '../Components/RedesSociales/RedesSociales'
+import "../Components/Estilos/misionvision.css"
 import "../Components/Estilos/Home.css"
 
 function MisionVision() {
   return (
     <>
-    <div id="fondo">
+    <div id="fondo" >
       <h2 className='tituloMiViVa'>MISION VISION Y VALORES</h2>
-      <div className='container'>
+      <div className='container' >
         <div className='row'>
           <div className='col-md-4'>
             <div className='card'>

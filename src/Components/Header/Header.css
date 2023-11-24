@@ -31,8 +31,9 @@
 }
 
 
-#Logo{
+#LogoHeader{
     width: 100px;
+    height: 70px;
     margin-left: 100px;
 }
 
@@ -41,8 +42,8 @@
     background-color: blue;
     padding: 1%;
     width: 100px;
-    height: 30px;
-    border-radius: 20%;
+    height: 40px;
+    border-radius: 50%;
 }
 
 #fondoHeader{
