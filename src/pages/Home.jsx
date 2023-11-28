@@ -5,7 +5,8 @@ import correo from "../icon/correoAzul.png";
 import horario from "../icon/horarioAtencion.png";
 import telefono from "../icon/telefoAzul.png";
 import Preguntas from '../Components/Preguntas/Preguntas';
-import "../Components/Estilos/Home.css";
+import "../Components/Estilos/Home.css"
+import PreguntasCardBox from '../Components/Preguntas/PreguntasCardBox';
 
 function Home() {
   return (
@@ -55,8 +56,13 @@ function Home() {
       <p className='parrafo'>Creemos que el servicio es una expresión del amor y la compasión. Cuando servimos a los demás, estamos poniendo nuestro corazón en acción. Estamos demostrando que nos importan, que nos preocupamos por su bienestar.</p>
 
       <Preguntas />
+      <PreguntasCardBox />
     </div>
   )
 }
 
 export default Home
+
+
+
+// https://josetxu.com/flip-cards-o-tarjetas-giratorias-con-css3/
