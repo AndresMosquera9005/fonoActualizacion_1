@@ -5,9 +5,6 @@ import MisionVision from "./pages/MisionVision.jsx"
 import Portafolio from "./pages/Portafolio.jsx"
 import Servicio from "./pages/Servicio.jsx"
 import Header from './Components/Header/Header.jsx'
-import RedesSociales from './Components/RedesSociales/RedesSociales.jsx'
-import Preguntas from './Components/Preguntas/Preguntas.jsx'
-
 
 const App = () => {
   
@@ -22,8 +19,6 @@ const App = () => {
           <Route path="/servicio" element={ <Servicio/>  } />
         </Routes>
       </Suspense>
-      {/* <Preguntas /> */}
-      {/* <RedesSociales />   */}
     </Router>    
   )
   
