@@ -32,21 +32,23 @@
 
 
 #LogoHeader{
-    width: 100px;
-    height: 70px;
+    width: 200px;
+    height: 140px;
     margin-left: 100px;
 }
 
 .buttonHeader{
-    color: aqua;
-    background-color: blue;
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+    /* background-color: blue;
     padding: 1%;
     width: 100px;
     height: 40px;
-    border-radius: 30px;
+    border-radius: 30px; */
 }
 
-#fondoHeader{
+/* #fondoHeader{
     background-image: url("../Estilos/Fondos/tres.jpeg");
     filter: brightness(120%);
-}
+} */

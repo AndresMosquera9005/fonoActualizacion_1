@@ -1,16 +1,25 @@
 body{
     font-family: cursive;
 }
+
 .datosTitulo{
     color: blue;
     text-align: center;
     font-family: cursive;
 }
 
+.sobreNosotros{
+    color: blue;
+    margin-left: 120px;
+    font-family: cursive;
+    font-weight: 700;
+}
+
 .numberphome{
-    color:mediumspringgreen !important ;
+    color:blue !important ;
     font-family: cursive;
     text-align: center;
+    font-weight: 500 !important;
 }
 
 .card {
@@ -28,6 +37,8 @@ body{
 .parafoColor {
     text-align: center;
     color: black !important;
+    font-size: 20px;
+    
 }
 
 /* .parrafoUno{
@@ -42,8 +53,8 @@ body{
 }
 
 #parrafoPrincipal{
-    color:mediumspringgreen !important;
-    margin-top: 20% !important;
+    color:blue !important;
+    margin-top: 12% !important;
     margin-left: -40% !important;
     margin-right: 10%;
     text-align: start;
@@ -59,10 +70,11 @@ body{
 }
 
 .parrafo{
-    color:mediumspringgreen;
+    color:blue;
     margin-left: 20%;
     margin-right: 10% ;
     margin-top: 1%;
+    font-size: 20px;
 }
 
 .icons {
@@ -146,10 +158,6 @@ body{
     padding-left: 0%;
 }
 
-.description{
-    color: black;    
-}
-
 .tituloPortafolio{
     color: blue;
 }
@@ -184,11 +192,12 @@ body{
 .tituloPreguntas{
     color: blue;
     margin-left: 300px;
+    font-family: cursive !important;
 }
 
 .container{
     margin-left: -4%;
-    
+    font-family: cursive; 
 }
 
 .cardPreguntas{
@@ -203,12 +212,22 @@ body{
 
 .h3TitulosPreguntas{
     color: blue;
+    font-family: cursive;
+    font-size: 20px;
 }
 .pSutitulosPreguntas{
-    color: mediumspringgreen ;
+    color: blue;
+    font-size: 18px;
 }
 
 #div{
     background-image: url("Fondos/tres.jpeg");
     filter: brightness(120%);
+}
+
+
+/* REDES SOCIALES  */
+
+.redesSociales{
+    margin-left: 20%;
 }

@@ -7,7 +7,6 @@ import RedesSociales from '../Components/RedesSociales/RedesSociales'
 import "../Components/Estilos/Home.css"
 
 function Portafolio() {
-
   return (
     <div id='fondo'>
       <div>
@@ -53,17 +52,17 @@ function Portafolio() {
       <div>
         <h1 className='tituloPortafolio'>Importancia de la terapia</h1>
         <p className='significados'>Una profesión importante que tiene un impacto positivo en la vida de muchas personas. Los fonoaudiólogos ayudan a las personas a superar los trastornos de la comunicación, lo que puede mejorar su calidad de vida en muchos aspectos.</p>
-        <h1 className='tituloPortafolio'>desempeño fundamental</h1>
+        <h1 className='tituloPortafolio'>Desempeño fundamental</h1>
         <ul className='significados'>
-          <li>EDUCACION: Los fonoaudiólogos trabajan en las escuelas para ayudar a los estudiantes con trastornos del lenguaje y el habla.</li>
+          <li>EDUCACIÓN: Los fonoaudiólogos trabajan en las escuelas para ayudar a los estudiantes con trastornos del lenguaje y el habla.</li>
           <li>SALUD: Los fonoaudiólogos trabajan en los hospitales, las clínicas y otros centros de atención médica para evaluar y tratar a los pacientes con trastornos de la comunicación.</li>
           <li>REHABILITACIÓN: Los fonoaudiólogos trabajan en los centros de rehabilitación para ayudar a las personas que han sufrido lesiones o enfermedades que han afectado a su comunicación.</li>
           
         </ul>
       </div>
       <div>
-        <h1 className='tituloPortafolio'>metodo de evaluacion</h1>
-        <p> utilizan una variedad de métodos de evaluación para determinar la causa de un trastorno de la comunicación. Estos métodos pueden incluir:</p>
+        <h1 className='tituloPortafolio'>Metodo de evaluación</h1>
+        <p className='significados'> Utilizan una variedad de métodos de evaluación para determinar la causa de un trastorno de la comunicación. Estos métodos pueden incluir:</p>
         <ul className='significados'>
           <li>Historia clínica: El fonoaudiólogo recopila información sobre el historial médico, el desarrollo y el comportamiento del paciente.</li>
           <li>Examen físico: El fonoaudiólogo realiza un examen físico de la cabeza, el cuello y la boca del paciente.</li>

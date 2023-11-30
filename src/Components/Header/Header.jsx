@@ -11,16 +11,16 @@ const Header = () => {
       <nav id='ListaMenu'>
         <ul>
           <li>
-            <Link to="/"><button className='buttonHeader'>Inicio</button></Link> 
+            <Link to="/" className='buttonHeader'>Inicio</Link> 
           </li>
           <li>
-            <Link to="/servicio"><button className='buttonHeader'>Servicio</button> </Link>
+            <Link to="/servicio" className='buttonHeader'>Servicio </Link>
           </li>
           <li>
-            <Link to="/misionVision"><button className='buttonHeader'>Mision y Vision</button></Link>
+            <Link to="/misionVision" className='buttonHeader'>Mision y Vision</Link>
           </li>
           <li>
-            <Link to="/portafolio"><button className='buttonHeader'>Portafolio</button></Link>
+            <Link to="/portafolio" className='buttonHeader'>Portafolio</Link>
           </li>          
         </ul>          
       </nav>

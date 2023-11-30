@@ -14,7 +14,7 @@ const RedesSociales = () => {
     const tiktokLink = `https://www.tiktok.com/@centrofonoaudiolg?_t=8gn675dplt0&_r=1`
 
     return (
-        <div>
+        <div className='redesSociales'>
             
             <a href={whatsappLink} target="_blank" rel="noopener noreferrer" >
                 <FontAwesomeIcon icon={faWhatsapp} id='wtp' className='separacionIconos' />

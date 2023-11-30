@@ -20,8 +20,8 @@ import "../Components/Servicios/Card.css"
 const Servicio = () => {
   return (
     <>    
-      <h1 className='tituloServicio'>Servicios</h1>
       <div id='div' className='tamañosImagenes'>
+        <h1 className='tituloServicio'>Servicios</h1>
         <Row>
           <Col col-md-4>
             <Card
