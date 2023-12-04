@@ -10,13 +10,13 @@ function Portafolio() {
   return (
     <div id='fondo'>
       <div>
-        <h1 className='tituloPortafolio'>SERVICIO DOMOCILIARIO</h1>
+        <h1 className='tituloPortafolio'>SERVICIOS DOMOCILIARIOS</h1>
         <Row>
           <Col col-md-4>
             <img src={imagen} alt="" className='imagenesPorta' />
           </Col>
           <Col col-md-4>
-            <h1 className='tituloPortafolio'>NUESTRO SERVISIO</h1>
+            <h1 className='tituloPortafolio'>NUESTROS SERVISIOS</h1>
             <ul className='listaPortafolio'>              
               <li>Orientación vocacional a estuadiente a de grado 11</li>
               <li>Psicología</li>
@@ -31,7 +31,7 @@ function Portafolio() {
       </div>
 
       <div>
-        <h1 className='tituloPortafolio'>CUIDADO DE LA SALUD</h1>
+        <h1 className='tituloPortafolio'>CUIDADOS DE LA SALUD</h1>
         <Row>    
           <Col col-md-4>
             <ul id='cuidadSalud' className='listaPortafolio'>

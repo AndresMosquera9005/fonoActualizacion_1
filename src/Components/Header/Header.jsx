@@ -2,12 +2,16 @@ import React from 'react'
 import { Outlet } from 'react-router'
 import { Link } from 'react-router-dom'
 import lb from '../../image/logo/logoletra_COLOR_azul_sinFondo.png'
+import { BsFillHouseDoorFill } from "react-icons/bs";
 import "./Header.css"
 
 const Header = () => {
   return (    
     <div className='Menu' id="fondoHeader">
       <img src={lb} id='LogoHeader'/>
+      <div id='iconoCasa'>
+        <BsFillHouseDoorFill />
+      </div>
       <nav id='ListaMenu'>
         <ul>
           <li>
@@ -26,7 +30,9 @@ const Header = () => {
       </nav>
       <Outlet/>
     </div>
-  )
+
+    
+  ) 
 }
 
 export default Header

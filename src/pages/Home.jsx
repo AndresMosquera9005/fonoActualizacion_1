@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import docD from "../image/doctora/doctora_d.jpg";
+import doctoraDos from "../image/doctora/DOCTORA2_F.jpg"
 import correo from "../icon/correoAzul.png";
 import horario from "../icon/horarioAtencion.png";
 import telefono from "../icon/telefoAzul.png";
@@ -9,15 +10,18 @@ import RedesSociales from '../Components/RedesSociales/RedesSociales';
 import "../Components/Estilos/Home.css"
  
 function Home() {
-  return (
+  return ( 
     <div id='div'>
-      <h1 id='fono'>FONOAUDIOLOGÍA</h1>
+      <h1 id='fono'>NOSOTROS</h1>
       <Row>
         <Col className="col-md-4" >
-          <img src={docD} alt="" className='docD' />          
+          <img src={docD} alt="" className='docD' id='docD' />   
+        </Col>
+        <Col className="col-md-4" >
+          <img src={doctoraDos} alt="" id='doctoraDos' />   
         </Col>
         <Col >
-          <div className="col-md-8">
+          <div className="col-md-4">
             <p id='parrafoPrincipal' className='parafoColor'>El centro Foaudiologico es una organización que brinda servicios de fonoaudiología a personas de todas las edades y orígenes. Los servicios de fonoaudiología se centran en la evaluación, el diagnóstico y el tratamiento de trastornos de la comunicación, el habla, el lenguaje, la audición y la deglución. pueden desempeñar un papel importante en la mejora de la calidad de vida de las personas con trastornos de la comunicación. Al proporcionar servicios de evaluación, diagnóstico y tratamiento, las empresas de fonoaudiología pueden ayudar a las personas a desarrollar sus habilidades de comunicación y a participar plenamente en la sociedad.</p>
           </div>
         </Col>

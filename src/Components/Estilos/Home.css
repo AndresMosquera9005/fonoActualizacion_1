@@ -16,7 +16,7 @@ body{
 }
 
 .numberphome{
-    color:blue !important ;
+    color:#828282(0, 0%, 0.1%) !important;
     font-family: cursive;
     text-align: center;
     font-weight: 500 !important;
@@ -46,14 +46,26 @@ body{
     margin-right: 5%;    
 } */
 
-.docD{
+.docD{  
     margin-top: 10%;
     width: 40% !important;
-    border-radius: 50% ;
+    border-radius: 50%;
+}
+
+/* #docD{
+
+} */
+
+#doctoraDos{
+    margin-top: 10%;
+    margin-left: -65%;
+    height: 80%;
+    width: 70%;
+    border-radius: 50%;
 }
 
 #parrafoPrincipal{
-    color:blue !important;
+    color:#828282(0, 0%, 0.1%) !important;
     margin-top: 12% !important;
     margin-left: -40% !important;
     margin-right: 10%;
@@ -70,7 +82,7 @@ body{
 }
 
 .parrafo{
-    color:blue;
+    color:#828282(0, 0%, 0.1%) !important;
     margin-left: 20%;
     margin-right: 10% ;
     margin-top: 1%;
@@ -141,7 +153,7 @@ body{
 /* Preguntas */
 
 .significados{
-    color: blue;
+    color: #828282(0, 0%, 0.1%) !important;
     font-family: cursive;
     margin-left: 20%;
     margin-right: 10% ;
@@ -166,7 +178,7 @@ body{
 }
 
 .listaPortafolio{
-    color: blue;
+    color: #828282(0, 0%, 0.1%) !important;
     font-family: cursive !important;
     font-size: 20px;
 }
@@ -182,15 +194,60 @@ body{
     color: blue;
     font-family: cursive !important;
     font-size: 20px;
-
+    text-align: center;
 }
+
+h2{
+    text-align: center;
+    
+}
+
 .parrafoMiViVa{
-    color:blue !important;
+    color:#828282(0, 0%, 0.1%) !important;
     font-size: 20px;
+    text-align: center;
+}
+
+.card {
+    /* width: 500px; */
+    border: 1px solid ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
+
+/* .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+} */
+
+/* .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+} */
+
+.card p {
+    font-size: 20px;
+    /* margin-bottom: 15px; */
+}
+
+.row {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 300px;
 
 }
 
-#fondo{
+.column {
+    flex: 2; 
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* #fondo{
     background-image: url("Fondos/tres.jpeg");
     filter: brightness(120%);
 }
@@ -198,7 +255,7 @@ body{
 #fondoCardPreguntas{
     background-image: url("Fondos/tres.jpeg");
     filter: brightness(120%);
-}
+} */
 
 /* PREGUNTAS CARD BOX */
 
@@ -229,14 +286,14 @@ body{
     font-size: 20px;
 }
 .pSutitulosPreguntas{
-    color: blue;
+    color: #828282(0, 0%, 0.1%) !important;
     font-size: 18px;
 }
 
-#div{
+/* #div{
     background-image: url("Fondos/tres.jpeg");
     filter: brightness(120%);
-}
+} */
 
 
 /* REDES SOCIALES  */
