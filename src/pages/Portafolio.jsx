@@ -10,14 +10,14 @@ function Portafolio() {
   return (
     <div id='fondo'>
       <div>
-        <h1 className='tituloPortafolio'>Servicio domiciliario</h1>
+        <h1 className='tituloPortafolio'>SERVICIO DOMOCILIARIO</h1>
         <Row>
           <Col col-md-4>
             <img src={imagen} alt="" className='imagenesPorta' />
           </Col>
           <Col col-md-4>
-            <h1 className='tituloPortafolio'>Nuestro servicio</h1>
-            <ul>              
+            <h1 className='tituloPortafolio'>NUESTRO SERVISIO</h1>
+            <ul className='listaPortafolio'>              
               <li>Orientación vocacional a estuadiente a de grado 11</li>
               <li>Psicología</li>
               <li>Terapia ocupacional</li>
@@ -31,10 +31,10 @@ function Portafolio() {
       </div>
 
       <div>
-        <h1 className='tituloPortafolio'>Cuidado de la salud</h1>
+        <h1 className='tituloPortafolio'>CUIDADO DE LA SALUD</h1>
         <Row>    
           <Col col-md-4>
-            <ul id='cuidadSalud'>
+            <ul id='cuidadSalud' className='listaPortafolio'>
               <li>Primera infancia</li>
               <li>Infancia</li>
               <li>Adolescencia</li>
@@ -50,9 +50,9 @@ function Portafolio() {
         </Row>
       </div>
       <div>
-        <h1 className='tituloPortafolio'>Importancia de la terapia</h1>
+        <h1 className='tituloPortafolio'>IMPORTANCIA DE LA TERAPIA </h1>
         <p className='significados'>Una profesión importante que tiene un impacto positivo en la vida de muchas personas. Los fonoaudiólogos ayudan a las personas a superar los trastornos de la comunicación, lo que puede mejorar su calidad de vida en muchos aspectos.</p>
-        <h1 className='tituloPortafolio'>Desempeño fundamental</h1>
+        <h1 className='tituloPortafolio'>DESEMPEÑO FUNDAMENTAL</h1>
         <ul className='significados'>
           <li>EDUCACIÓN: Los fonoaudiólogos trabajan en las escuelas para ayudar a los estudiantes con trastornos del lenguaje y el habla.</li>
           <li>SALUD: Los fonoaudiólogos trabajan en los hospitales, las clínicas y otros centros de atención médica para evaluar y tratar a los pacientes con trastornos de la comunicación.</li>
@@ -61,7 +61,7 @@ function Portafolio() {
         </ul>
       </div>
       <div>
-        <h1 className='tituloPortafolio'>Metodo de evaluación</h1>
+        <h1 className='tituloPortafolio'>METODO DE LA EVALUACIÓN </h1>
         <p className='significados'> Utilizan una variedad de métodos de evaluación para determinar la causa de un trastorno de la comunicación. Estos métodos pueden incluir:</p>
         <ul className='significados'>
           <li>Historia clínica: El fonoaudiólogo recopila información sobre el historial médico, el desarrollo y el comportamiento del paciente.</li>

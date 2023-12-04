@@ -80,7 +80,6 @@ body{
 .icons {
     width: 50%;
     margin-left: 30%;
-
 }
 
 .container{
@@ -139,12 +138,15 @@ body{
     margin-left: -20%;
 }
 
+/* Preguntas */
+
 .significados{
-    color: black;
+    color: blue;
     font-family: cursive;
     margin-left: 20%;
     margin-right: 10% ;
     margin-top: 1%;
+    font-size: 20px;
 }
 
 
@@ -160,6 +162,13 @@ body{
 
 .tituloPortafolio{
     color: blue;
+    font-family: cursive;
+}
+
+.listaPortafolio{
+    color: blue;
+    font-family: cursive !important;
+    font-size: 20px;
 }
 
 
@@ -172,9 +181,13 @@ body{
 .subTilulosMiViVa{
     color: blue;
     font-family: cursive !important;
+    font-size: 20px;
+
 }
 .parrafoMiViVa{
-    color:mediumspringgreen !important;
+    color:blue !important;
+    font-size: 20px;
+
 }
 
 #fondo{

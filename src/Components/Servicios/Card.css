@@ -1,5 +1,5 @@
 .card {
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 8px;
     overflow: hidden;
     margin: 10px;
@@ -42,9 +42,13 @@ h1{
 
 }
 .card-description{
-    color:mediumspringgreen !important;
+    color:blue !important;
+    font-family: cursive !important;
+    font-size: 20PX;
 }
 
 .tituloServicio{
     color: blue;
+    font-family: cursive !important;
+    font-weight: 700;
 }
