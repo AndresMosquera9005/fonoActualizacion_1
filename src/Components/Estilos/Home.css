@@ -47,9 +47,14 @@ body{
 } */
 
 .docD{  
-    margin-top: 10%;
+    /* margin-top: 14%;
+    margin-left: -50%;
     width: 40% !important;
-    border-radius: 50%;
+    height: 30%;
+    border-radius: 2%; */
+    height: 50%;
+    width: 20%;
+
 }
 
 /* #docD{
@@ -57,16 +62,16 @@ body{
 } */
 
 #doctoraDos{
-    margin-top: 10%;
+    margin-top: 14%;
     margin-left: -65%;
-    height: 80%;
+    height: 30%;
     width: 70%;
-    border-radius: 50%;
+    border-radius: 2%;
 }
 
 #parrafoPrincipal{
     color:#828282(0, 0%, 0.1%) !important;
-    margin-top: 12% !important;
+    margin-top: 5% !important;
     margin-left: -40% !important;
     margin-right: 10%;
     text-align: start;

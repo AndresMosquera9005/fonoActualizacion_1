@@ -20,11 +20,11 @@ const RedesSociales = () => {
                 <FontAwesomeIcon icon={faWhatsapp} id='wtp' className='separacionIconos' />
             </a>
             
-            <a href={intagramLink} target="_blank" rel="noopener noreferrer">
+            <a href={intagramLink} target="_blank" rel="noopener noreferrer" >
                 <FontAwesomeIcon icon={faInstagram } id='itm' className='separacionIconos' /> 
             </a>
 
-            <a href={tiktokLink} target="_blank" rel="noopener noreferrer">
+            <a href={tiktokLink} target="_blank" rel="noopener noreferrer" >
                 <FontAwesomeIcon icon={faTiktok} id='tk' className='separacionIconos' />
             </a>
 
