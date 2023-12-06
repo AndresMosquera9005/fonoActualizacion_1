@@ -8,8 +8,10 @@ body{
     font-family: cursive;
 }
 
+
+
 .sobreNosotros{
-    color: blue;
+    color: rgb(52, 52, 234);
     margin-left: 120px;
     font-family: cursive;
     font-weight: 700;
@@ -53,8 +55,7 @@ body{
     height: 30%;
     border-radius: 2%; */
     height: 50%;
-    width: 20%;
-
+    width: 30%;
 }
 
 /* #docD{
@@ -62,19 +63,27 @@ body{
 } */
 
 #doctoraDos{
-    margin-top: 14%;
-    margin-left: -65%;
+    margin-top: -15%;
+    margin-left: -7%;
     height: 30%;
-    width: 70%;
-    border-radius: 2%;
+    width: 50%;
+    border-radius: 20%;
 }
 
 #parrafoPrincipal{
-    color:#828282(0, 0%, 0.1%) !important;
-    margin-top: 5% !important;
-    margin-left: -40% !important;
-    margin-right: 10%;
-    text-align: start;
+    color:#2E58A6 !important;
+    margin-top: -9% !important;
+    margin-left: -10% !important;
+    margin-right: 15%;
+    text-align: justify;
+}
+
+#idTatianaParrafo{
+    color:#2E58A6 !important;
+    margin-left: -100%;
+    margin-right: 51%;
+    font-size: 20px;
+    text-align: justify;
 }
 
 #Row2 {
@@ -83,11 +92,12 @@ body{
 
 #fono{
     margin-left: 10%;
-    color: blue;
+    /* color: #2E58A6; */
+    color: #00B2B0;
 }
 
 .parrafo{
-    color:#828282(0, 0%, 0.1%) !important;
+    color:#2E58A6 !important;
     margin-left: 20%;
     margin-right: 10% ;
     margin-top: 1%;
@@ -153,6 +163,11 @@ body{
 
 #cuidadSalud{
     margin-left: -20%;
+}
+
+#niñosMisionVision{
+    margin-left: 2.5%;
+    
 }
 
 /* Preguntas */

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import docD from "../image/doctora/doctora_d.jpg";
+//import docD from "../image/doctora/doc_recortado.png";
 import doctoraDos from "../image/doctora/DOCTORA2_F.jpg"
 import correo from "../icon/correoAzul.png";
 import horario from "../icon/horarioAtencion.png";
@@ -17,12 +18,17 @@ function Home() {
         <Col className="col-md-4" >
           <img src={docD} alt="" className='docD' id='docD' />   
         </Col>
+        <Col>
+          <p id='idTatianaParrafo'>TATIANA PARRA VICTORIA FONOAUDIÓLOGA FOUNDER ESPECIALISTA EN GERENCIA DE LA CALIDAD EN SALUD. AMPLIA EXPERIENCIA EN COORDINACIÓN DE PROCESOS ADMINISTRATIVOS Y TERAPÉUTICOS. GERENTE DEL CENTRO FONOAUDIOLÓGICO DE REHABILITACIÓN. </p>
+        </Col>
+      </Row>
+      <Row>
         <Col className="col-md-4" >
-          <img src={doctoraDos} alt="" id='doctoraDos' />   
+          <p id='parrafoPrincipal' className='parafoColor'>DIANA ERAZO MUÑOZ TERAPEUTA OCUPACIONAL CO-FOUNDER LÍDER EN PROCESOS DE APOYO PEDAGÓGICO. AMPLIA EXPERIENCIA EN PROCESOS TERAPÉUTICOS DE REHABILITACIÓN EINCLUSIÓN EDUCATIVA. DIRECTORA DEL CENTRO FONOAUDIOLÓGICO DE REHABILITACIÓN.</p>
         </Col>
         <Col >
           <div className="col-md-4">
-            <p id='parrafoPrincipal' className='parafoColor'>El centro Foaudiologico es una organización que brinda servicios de fonoaudiología a personas de todas las edades y orígenes. Los servicios de fonoaudiología se centran en la evaluación, el diagnóstico y el tratamiento de trastornos de la comunicación, el habla, el lenguaje, la audición y la deglución. pueden desempeñar un papel importante en la mejora de la calidad de vida de las personas con trastornos de la comunicación. Al proporcionar servicios de evaluación, diagnóstico y tratamiento, las empresas de fonoaudiología pueden ayudar a las personas a desarrollar sus habilidades de comunicación y a participar plenamente en la sociedad.</p>
+            <img src={doctoraDos} alt="" id='doctoraDos' />     
           </div>
         </Col>
       </Row>
@@ -58,8 +64,8 @@ function Home() {
         </Col>
       </Row>
 
-      <h1 className='sobreNosotros'>SOBRE NOSOTROS</h1>
-      <p className='parrafo'>Creemos que el servicio es una expresión del amor y la compasión. Cuando servimos a los demás, estamos poniendo nuestro corazón en acción. Estamos demostrando que nos importan, que nos preocupamos por su bienestar.</p>
+      {/* <h1 className='sobreNosotros'>SOBRE NOSOTROS</h1>
+      <p className='parrafo'>Creemos que el servicio es una expresión del amor y la compasión. Cuando servimos a los demás, estamos poniendo nuestro corazón en acción. Estamos demostrando que nos importan, que nos preocupamos por su bienestar.</p> */}
 
       <PreguntasCardBox />
       <RedesSociales />
