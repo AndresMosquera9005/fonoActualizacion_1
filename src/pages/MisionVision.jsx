@@ -1,6 +1,6 @@
 import React from 'react'
 import RedesSociales from '../Components/RedesSociales/RedesSociales'
-import niños from "../image/doctora/imagenMisionVision.jpg"
+import niños from "../image/doctora/NIÑOS.jpg"
 // import "../Components/Estilos/misionvision.css"
 import "../Components/Estilos/Home.css"
 

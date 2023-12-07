@@ -8,6 +8,8 @@
     margin-left: -1%;
     margin-right: -1%;
     margin-top: -1%;
+    top: 0;
+    z-index: 100;
 }
 
 #ListaMenu{
@@ -48,10 +50,11 @@
     border-radius: 30px; */
 }
 
-/* #fondoHeader{
-    background-image: url("../Estilos/Fondos/tres.jpeg");
-    filter: brightness(120%);
-} */
+#fondoHeader{
+    /* position: fixed; */
+    top: 0;
+    z-index: 100;
+}
 
 #iconoCasa{
     margin-left: 23%;

@@ -3,22 +3,22 @@ body{
 }
 
 .datosTitulo{
-    color: blue;
+    color: #00B2B0;
     text-align: center;
     font-family: cursive;
 }
 
 
 
-.sobreNosotros{
+/* .sobreNosotros{
     color: rgb(52, 52, 234);
     margin-left: 120px;
     font-family: cursive;
     font-weight: 700;
-}
+} */
 
 .numberphome{
-    color:#828282(0, 0%, 0.1%) !important;
+    color:#2E58A6 !important;
     font-family: cursive;
     text-align: center;
     font-weight: 500 !important;
@@ -54,7 +54,7 @@ body{
     width: 40% !important;
     height: 30%;
     border-radius: 2%; */
-    height: 50%;
+    height: 70%;
     width: 30%;
 }
 
@@ -84,6 +84,7 @@ body{
     margin-right: 51%;
     font-size: 20px;
     text-align: justify;
+    font-family: cursive;
 }
 
 #Row2 {
@@ -102,6 +103,8 @@ body{
     margin-right: 10% ;
     margin-top: 1%;
     font-size: 20px;
+    text-align: justify;
+    font-family: cursive;
 }
 
 .icons {
@@ -166,6 +169,7 @@ body{
 }
 
 #niñosMisionVision{
+    margin-top: 10%;
     margin-left: 2.5%;
     
 }
@@ -173,7 +177,7 @@ body{
 /* Preguntas */
 
 .significados{
-    color: #828282(0, 0%, 0.1%) !important;
+    color: #2E58A6 !important;
     font-family: cursive;
     margin-left: 20%;
     margin-right: 10% ;
@@ -193,12 +197,12 @@ body{
 }
 
 .tituloPortafolio{
-    color: blue;
+    color: #00B2B0;
     font-family: cursive;
 }
 
 .listaPortafolio{
-    color: #828282(0, 0%, 0.1%) !important;
+    color: #2E58A6 !important;
     font-family: cursive !important;
     font-size: 20px;
 }
@@ -207,11 +211,11 @@ body{
 /* MISION VISION Y VALORES */
 
 .tituloMiViVa{
-    color:blue ;
+    color:#00B2B0 ;
     font-family: cursive !important;
 }
 .subTilulosMiViVa{
-    color: blue;
+    color: #00B2B0;
     font-family: cursive !important;
     font-size: 20px;
     text-align: center;
@@ -280,7 +284,7 @@ h2{
 /* PREGUNTAS CARD BOX */
 
 .tituloPreguntas{
-    color: blue;
+    color: #00B2B0;
     margin-left: 300px;
     font-family: cursive !important;
 }
@@ -301,12 +305,12 @@ h2{
 }
 
 .h3TitulosPreguntas{
-    color: blue;
+    color: #00B2B0;
     font-family: cursive;
     font-size: 20px;
 }
 .pSutitulosPreguntas{
-    color: #828282(0, 0%, 0.1%) !important;
+    color: #2E58A6 !important;
     font-size: 18px;
 }
 
