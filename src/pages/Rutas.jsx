@@ -12,7 +12,7 @@ const Rutas = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="">Mision y vision</Link>
+                    <Link to="">Nosotros</Link>
                 </li>
                 <li>
                     <Link>Portafolio</Link>

@@ -18,11 +18,14 @@ const Header = () => {
             <Link to="/" className='buttonHeader'>Inicio</Link> 
           </li>
           <li>
-            <Link to="/servicio" className='buttonHeader'>Servicio </Link>
+            <Link to="/nosotros" className='buttonHeader'>Nosotros</Link>
           </li>
           <li>
-            <Link to="/misionVision" className='buttonHeader'>Mision y Vision</Link>
+            <Link to="/servicio" className='buttonHeader'>Servicio </Link>
           </li>
+          {/* <li>
+            <Link to="/misionVision" className='buttonHeader'>Mision y Vision</Link>
+          </li> */}
           <li>
             <Link to="/portafolio" className='buttonHeader'>Portafolio</Link>
           </li>          

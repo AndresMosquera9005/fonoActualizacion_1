@@ -22,16 +22,19 @@ function Home() {
           <p id='idTatianaParrafo'>TATIANA PARRA VICTORIA FONOAUDIÓLOGA FOUNDER ESPECIALISTA EN GERENCIA DE LA CALIDAD EN SALUD. AMPLIA EXPERIENCIA EN COORDINACIÓN DE PROCESOS ADMINISTRATIVOS Y TERAPÉUTICOS. GERENTE DEL CENTRO FONOAUDIOLÓGICO DE REHABILITACIÓN. </p>
         </Col>
       </Row>
-      <Row>
-        <Col className="col-md-4" >
-          <p id='parrafoPrincipal' className='parafoColor'>DIANA ERAZO MUÑOZ TERAPEUTA OCUPACIONAL CO-FOUNDER LÍDER EN PROCESOS DE APOYO PEDAGÓGICO. AMPLIA EXPERIENCIA EN PROCESOS TERAPÉUTICOS DE REHABILITACIÓN EINCLUSIÓN EDUCATIVA. DIRECTORA DEL CENTRO FONOAUDIOLÓGICO DE REHABILITACIÓN.</p>
-        </Col>
-        <Col >
-          <div className="col-md-4">
-            <img src={doctoraDos} alt="" id='doctoraDos' />     
-          </div>
-        </Col>
-      </Row>
+      <div className='divDoctoraDos'>
+        <Row>
+          <Col className="col-md-4" >
+            <p id='parrafoPrincipal' className='parafoColor'>DIANA ERAZO MUÑOZ TERAPEUTA OCUPACIONAL CO-FOUNDER LÍDER EN PROCESOS DE APOYO PEDAGÓGICO. AMPLIA EXPERIENCIA EN PROCESOS TERAPÉUTICOS DE REHABILITACIÓN EINCLUSIÓN EDUCATIVA. DIRECTORA DEL CENTRO FONOAUDIOLÓGICO DE REHABILITACIÓN.</p>
+          </Col>
+          <Col >
+            <div className="col-md-4">
+              <img src={doctoraDos} alt="" id='doctoraDos' />     
+            </div>
+          </Col>
+        </Row>
+
+      </div>
 
       <p className='parrafo'>Somos una de las empresas de fonoaudiología que desempeña un papel importante en la mejora de la calidad de vida de las personas con trastornos de la comunicación. Al proporcionar servicios de evaluación, diagnóstico y tratamiento, las empresas de fonoaudiología pueden ayudar a las personas a desarrollar sus habilidades de comunicación y a participar plenamente en la sociedad.</p>
 
