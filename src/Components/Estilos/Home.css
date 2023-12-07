@@ -158,6 +158,32 @@ body{
     width: 40%;
 }
 
+/* MISION Y VISION */
+/* MISION */
+#diseñoMision{}
+#mision{
+    color: #00B2B0;
+    font-family: cursive;
+}
+
+#pMision{
+    color: #2E58A6 !important;
+    font-family: cursive;
+}
+
+/* VISION */
+#diseñoVision{
+
+}
+#vision{
+    color: #00B2B0;
+    font-family: cursive;
+}
+
+#pVision{
+    color: #2E58A6 !important;
+    font-family: cursive;
+}
 
 /* MISION VISION Y VALORES */
 

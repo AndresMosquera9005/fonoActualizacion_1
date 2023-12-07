@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from 'react'
+import React, { Suspense } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from "./pages/Home.jsx"
 import MisionVision from "./pages/MisionVision.jsx"
@@ -15,7 +15,7 @@ const App = () => {
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={ <Home/> } />
-          <Route path='/nosotros' element={ <Nosotros />} />
+          {/* <Route path='/nosotros' element={ <Nosotros />} /> */}
           <Route path="/misionVision" element={ <MisionVision/> } />
           <Route path="/portafolio" element={ <Portafolio/>  } />
           <Route path="/servicio" element={ <Servicio/>  } />
