@@ -27,7 +27,7 @@ const Servicio = () => {
             <Card
               img = {respiracion}
               title = "TERAPIA RESPIRATORIA"
-              description ="La terapia ocupacional adopta un enfoque centrado en la persona / cliente que se centra en la ocupación, incluido el desempeño ocupacional y el compromiso ocupacional." 
+              description ="DESARROLLA TÉCNICAS APLICADAS PARA HABILITAR LA SECUENCIA MOTORA, RECUPERAR FUNCIONES DE LOCOMOCIÓN Y/O REHABILITAR EL SISTEMA OSTEOMUSCULAR, PARTIENDO DE LA ACTIVIDAD REFLEJA, EL TONO MUSCULAR Y LOS PATRONES FUNCIONALES INDIVIDUALES E INTEGRALES." 
             />
           </Col>
           <Col col-md-4>
@@ -51,7 +51,7 @@ const Servicio = () => {
             <Card 
               img = {psicologia}
               title = "PSICOLOGÍA"
-              description ="Disciplina científica que estudia y analiza la conducta del ser humano, así como el análisis de los procesos mentales de individuos y grupos." 
+              description ="EVALÚA E INTERVIENE EN TODOS AQUELLOS ASPECTOS COGNITIVOS, EMOCIONALES O CONDUCTUALES QUE PUEDAN ESTAR INTERFIRIENDO EN EL ADECUADO AJUSTE DEL NIÑO EN SU MEDIO. " 
             />
           </Col>
 
@@ -59,7 +59,9 @@ const Servicio = () => {
             <Card 
               img = {TerapiaOcupacional}
               title = "TERAPIA OCUPACIONAL"
-              description ="Es el uso terapéutico de las actividades de cuidado, trabajo y juego para incrementar la independencia funcional, aumentar el desarrollo y prevenir la incapacidad; puede incluir la adaptación de tareas o del entorno para alcanzar la máxima independencia y para aumentar la calidad de vida." 
+              description ="AYUDA A DESARROLLAR
+              FUNCIONES Y HABILIDADES COGNITIVAS, EMOCIONALES, SENSORIALES Y MOTORAS, PARA QUE EL NIÑO O NIÑA PUEDA DESEMPEÑARSE EFICIENTEMENTE.
+              " 
             />
           </Col>
 
@@ -77,7 +79,7 @@ const Servicio = () => {
             <Card 
               img = {Fisioterapia}
               title = "FISIOTERAPIA"
-              description ="Es una disciplina de la salud que estudia la comunicación humana y la discapacidad comunicativa."
+              description ="DESARROLLA TÉCNICAS APLICADAS PARA HABILITAR LA SECUENCIA MOTORA, RECUPERAR FUNCIONES DE LOCOMOCIÓN Y/O REHABILITAR EL SISTEMA OSTEOMUSCULAR, PARTIENDO DE LA ACTIVIDAD REFLEJA, EL TONO MUSCULAR Y LOS PATRONES FUNCIONALES INDIVIDUALES E INTEGRALES."
             />
           </Col>
           <Col col-md-4>
