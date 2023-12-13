@@ -1,13 +1,14 @@
 import React from 'react'
+import "../Components/Estilos/Home.css"
 
 function Valoracion() {
   return (
     <div>
-      <h1>VALORES DE LA COMPAÑIA</h1>
-      <p>Profesionalismo y empatia.</p>
-      <p>Integridad e innovación.</p>
-      <p>Compromiso y responsabilidad.</p>
-      <p>Trabajo en equipo.</p>
+      <h1 className='tituloValoresCompañia'>VALORES DE LA COMPAÑIA</h1>
+      <p className='parrafoValoresCompañia'>Profesionalismo y empatia.</p>
+      <p className='parrafoValoresCompañia'>Integridad e innovación.</p>
+      <p className='parrafoValoresCompañia'>Compromiso y responsabilidad.</p>
+      <p className='parrafoValoresCompañia'>Trabajo en equipo.</p>
     </div>
   )
 }

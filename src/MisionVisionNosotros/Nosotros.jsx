@@ -6,9 +6,9 @@ import Valoracion from './ValoracionCompañia'
 const Nosotros = () => {
   return (
     <div>
-        <Mision />
-        <Vision />
-        <Valoracion />
+      <Mision />
+      <Vision />
+      <Valoracion />
     </div>
   )
 }
