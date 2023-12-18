@@ -57,8 +57,8 @@
 }
 
 #iconoCasa{
-    margin-left: 23%;
+    margin-left: 110%;
     margin-top: 0.5%;
-    height: 0%;
-    width: 0%;
+    max-height: 10% ;
+    max-width: 20%;
 }

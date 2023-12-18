@@ -1,7 +1,7 @@
 import React from 'react'
 import imagenMision from "../image/mision vision/doctorasNiños.jpeg"
-import "../Components/Estilos/Home.css"
 import { Col, Row } from 'react-bootstrap'
+import "../Components/Estilos/Home.css"
 
 function Mision() {
   return (  
