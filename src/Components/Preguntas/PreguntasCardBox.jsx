@@ -37,13 +37,12 @@ function PreguntasCardBox() {
             <p className='pSutitulosPreguntas'>Contamos con cobertura en todas las zonas de la ciudad de Bogotá.</p>
           </div>
         </Col>
-          <Col col-md-4>
+          <Col className='col-md-4'>
             <div className='cardPreguntas'>
               <h3 className='h3TitulosPreguntas'>¿ QUÉ HORARIOS TIENEN DISPONIBLE? </h3><hr />
               <p className='pSutitulosPreguntas'>Manejamos horarios flexibles, de lunes a viernes de 7:00 AM a 17:00 PM, y los días sábados de 8:00 AM a 12:00 PM.</p>
             </div>
-          </Col>
-          
+          </Col>          
         </Row>
       </div>
     </div>

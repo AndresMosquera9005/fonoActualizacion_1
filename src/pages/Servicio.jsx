@@ -59,8 +59,7 @@ const Servicio = () => {
             <Card 
               img = {TerapiaOcupacional}
               title = "TERAPIA OCUPACIONAL"
-              description ="AYUDA A DESARROLLAR
-              FUNCIONES Y HABILIDADES COGNITIVAS, EMOCIONALES, SENSORIALES Y MOTORAS, PARA QUE EL NIÑO O NIÑA PUEDA DESEMPEÑARSE EFICIENTEMENTE.
+              description ="AYUDA A DESARROLLAR FUNCIONES Y HABILIDADES COGNITIVAS, EMOCIONALES, SENSORIALES Y MOTORAS, PARA QUE EL NIÑO O NIÑA PUEDA DESEMPEÑARSE EFICIENTEMENTE.
               " 
             />
           </Col>
@@ -69,64 +68,64 @@ const Servicio = () => {
             <Card 
               img = {Fonoaudiologia}
               title = "FONOAUDIOLOGÍA"
-              description ="Es una disciplina de la salud que estudia la comunicación humana y la discapacidad comunicativa."
+              description ="ES UNA DICIPLINA DE LA SALUD QUE ESTUDIA LA COMUNICACIÓN HUMANA Y LA DICIPLINA COMUNICATIVA."
             />
           </Col>
         </Row>
 
         <Row>
-          <Col col-md-4>
+          <Col>
             <Card 
               img = {Fisioterapia}
               title = "FISIOTERAPIA"
               description ="DESARROLLA TÉCNICAS APLICADAS PARA HABILITAR LA SECUENCIA MOTORA, RECUPERAR FUNCIONES DE LOCOMOCIÓN Y/O REHABILITAR EL SISTEMA OSTEOMUSCULAR, PARTIENDO DE LA ACTIVIDAD REFLEJA, EL TONO MUSCULAR Y LOS PATRONES FUNCIONALES INDIVIDUALES E INTEGRALES."
             />
           </Col>
-          <Col col-md-4>
+          <Col>
             <Card 
               img = {padres}
               title = "TALLER A PADRES"
-              description ="Apoyo pedagógico donde se le facilita a las familias nuevas técnicas y estrategias, que funcionan como recursos para la educación de sus hijos."
+              description ="APOYO PEDAGÓGICO DONDE SE LE FACILITA A LAS FAMILIAS NUEVAS TÉCNICAS Y ESTRATEGIAS, QUE FUNCIONAN COMO RECURSOS PARA LA EDUCACIÓN DE SUS HIJOS."
             />
           </Col>
-          <Col col-md-4>
+          <Col className='col-md-4'>
             <Card 
               img = {docentes}
               title = "TALLER A DOCENTES"
-              description = "Tienen como propósito aportar elementos que fortalezcan el diseño de estrategias didácticas para favorecer el proceso de enseñanza de la lectura y escritura y las matemáticas por parte de las maestras y maestros."
+              description = "TIENEN COMO PROPÓSITO APORTAR ELEMENTOS QUE FORTALEZCAN EL DISEÑO DE ESTRATEGIAS DIDÁCTICAS PARA FAVORECER EL PROCESO DE ENSEÑANZA DE LA LECTURA Y ESCRITURA Y LAS MATEMATICAS POR PARTE DE LAS MAESTRAS Y MAESTROS. "
             />
           </Col>
         </Row>
 
         <Row>
-          <Col col-md-4>
+          <Col>
             <Card
               img = {asesoriaG}
               title = "ASESORÍA GRAUTITA"
-              description = "se ofrece sin costo a las personas que lo necesitan. Puede ofrecerse por parte de organizaciones gubernamentales, no gubernamentales o privadas."
+              description = "SE OFRECE SIN COSTO  A LAS PERSONAS QUE LO NECESITAN. PUEDE OFRECERSE POR PARTE DE LAS ORGANIZACIONES GUBERNAMENTALES, NO GUBERNAMENTALES, O PRIVADOS."
             />          
           </Col>
-          <Col col-md-4>
+          <Col>
           <Card
               img = {asosacion}
               title = "ASOCIONES DE IPS"
-              description = "Son dos tipos de organizaciones que pueden trabajar juntas para mejorar la atención médica."
+              description = "SON DOS TIPOS DE ORGANIZACIONES QUE PUEDEN TRABAJAR JUNSTAS PARA MEJORAR LA ATENCIÓN MÉDICA."
             />  
           </Col>
-          <Col col-md-4>
+          <Col>
             <Card
               img = {asosacion}
               title = "CONVENIOS CON EMPRESAS"
-              description = "Es un acuerdo entre una institución educativa y una empresa que tiene como objetivo establecer una relación de colaboración entre ambas partes."
+              description = "ES UN ACUERDO ENTRE UNA INSTITUCIÓN EDUCATIVA Y UNA EMPRESA QUE TIENE COMO OBJETIVO ESTABLECES UNA RELACIÓN DE COLABORACIÓN ENTRE AMBAS PARTES."
             />
           </Col>
         </Row>
         <Row>
-          <Col col-md-4>
+          <Col>
             <Card 
               img = {domicilio}
               title = "SERVICIOS DOMICILIARIOS "
-              description = "Los servicios domiciliarios son servicios de atención médica, social o de apoyo que se brindan en el hogar de una persona."
+              description = "LOS SERVICIOS DOMICILIARIOS SON LOS SERVICIOS DE ATENCIÓN MÉDICA, SOCIAL O DE APOYO QUE SE BRINDAN EN EL HOGAR DE UNA PERSONA."
             />
           </Col>
         </Row>

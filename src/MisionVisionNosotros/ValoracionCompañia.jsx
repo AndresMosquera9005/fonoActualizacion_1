@@ -1,7 +1,7 @@
 import React from 'react'
 import doctoaDibujo from "../image/mision vision/doctoradibujo.jpeg"
-import "../Components/Estilos/Home.css"
 import { Col, Row } from 'react-bootstrap'
+import "../Components/Estilos/Home.css"
 
 function Valoracion() {
   return (
@@ -19,8 +19,7 @@ function Valoracion() {
             <p className='parrafoValoresCompañia'>Trabajo en equipo.</p>
           </div>     
         </Col>
-      </Row>
-    
+      </Row>    
     </div>
     
   )

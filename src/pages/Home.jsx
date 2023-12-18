@@ -8,6 +8,7 @@ import horario from "../icon/horarioAtencion.png";
 import telefono from "../icon/telefoAzul.png";
 import PreguntasCardBox from '../Components/Preguntas/PreguntasCardBox';
 import RedesSociales from '../Components/RedesSociales/RedesSociales';
+import Footer from '../Components/Footer/Footer';
 import "../Components/Estilos/Home.css"
  
 function Home() {
@@ -72,6 +73,7 @@ function Home() {
 
       <PreguntasCardBox />
       <RedesSociales />
+      <Footer />
     </div>
   )
 }

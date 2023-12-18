@@ -1,18 +1,23 @@
 import React from 'react'
-import niños from "../image/doctora/NIÑOS.jpg"
+import imagenMision from "../image/mision vision/doctorasNiños.jpeg"
 import "../Components/Estilos/Home.css"
+import { Col, Row } from 'react-bootstrap'
 
 function Mision() {
   return (  
-    <>
-      <img src={niños} alt="" id='imagenMision' />
-      <div id='diseñoMision'>
-          <h1 id='mision'>MISION</h1>
-          <p id='pMision'>Ser el centro de apoyo terapeutico en Bogotá y Calí más reconocido por su labor social en calidad y amor terapeutico a toda la población que lo requiera.</p>
-      </div>
-    
-    </>  
-    
+    <div id='diseñoMision'>
+      <Row>
+        <Col>
+          <div>
+            <h1 id='mision'>MISIÓN</h1>
+            <p id='pMision'>Ser el centro de apoyo terapeutico en Bogotá más reconocido por su labor social en calidad y amor terapeutico a toda la población que lo requiera.</p>
+          </div>
+        </Col>
+        <Col>
+          <img src={imagenMision} alt="" id='imagenMision' />
+        </Col>
+      </Row>    
+    </div>    
   )
 }
 

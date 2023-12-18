@@ -56,7 +56,7 @@ body{
     height: 30%;
     border-radius: 2%; */
     height: 75%;
-    width: 16%;
+    width: 30%;
     border-radius: 20%;
 }
 
@@ -163,7 +163,7 @@ body{
 /* MISION Y VISION */
 /* MISION */
 #diseñoMision{
-    margin-left: 20%;
+    margin-left: 10%;
     margin-right: 20%;
     font-size: 20px;
     border: 1px solid black;
@@ -171,12 +171,15 @@ body{
 #mision{
     color: #00B2B0;
     font-family: cursive;
+    margin-left: -70%;
 }
 
 #pMision{
     color: #2E58A6 !important;
     font-family: cursive;
-    margin-left: 2%;
+    margin-left: -40%;
+    margin-right: 40%;
+    text-align: justify;
 }
 
 /* VISION */
@@ -192,12 +195,16 @@ body{
 #vision{
     color: #00B2B0;
     font-family: cursive;
+    margin-left: -110%;
+    /* text-align: justify; */
 }
 
 #pVision{
     color: #2E58A6 !important;
     font-family: cursive;
-    margin-left: 2%;
+    margin-left: -100%;
+    margin-right: 10%;
+    text-align: justify;
 }
 
 
@@ -247,8 +254,12 @@ body{
     height: 150px;
     width: 200px;
     opacity: 1;
-    margin-left: 0.2%;
+    margin-left: -40%;
     margin-top: 20%;
+}
+
+#imagenVision{
+    margin-left: -100% ;
 }
 
 /* Preguntas */
@@ -409,3 +420,13 @@ h1{
     color: #2E58A6;
 }
 
+/* FOOTER */
+
+#imagenFooter{
+    width: -120PX;
+    height: 120px;
+}
+
+#margenCentroFono{
+    margin-left: 50%;
+}
