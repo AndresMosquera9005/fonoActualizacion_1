@@ -5,6 +5,7 @@ import adulto1 from "../image/sin fondo/etapaBebeAdulto-.png"
 import adulto2 from "../image/sin fondo/etapaBebeAdulto2.png"
 import RedesSociales from '../Components/RedesSociales/RedesSociales'
 import "../Components/Estilos/Home.css"
+import Footer from '../Components/Footer/Footer'
 
 function Portafolio() {
   return (
@@ -75,6 +76,7 @@ function Portafolio() {
       <div id='redesSociales'>
         <RedesSociales />
       </div>
+      <Footer />
     </div>
   )
 }

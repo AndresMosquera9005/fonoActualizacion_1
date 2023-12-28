@@ -15,6 +15,7 @@ import asesoriaG from "../icon/Asesoría gratuita.png"
 import asosacion from "../icon/imagesAsociaciones e IPS.png"
 import domicilio from "../icon/domicilio.jpg"
 import RedesSociales from '../Components/RedesSociales/RedesSociales';
+import Footer from '../Components/Footer/Footer';
 import "../Components/Servicios/Card.css"
 
 const Servicio = () => {
@@ -22,7 +23,7 @@ const Servicio = () => {
     <>    
       <div id='div' className='tamañosImagenes'>
         <h1 className='tituloServicio'>SERVICIOS</h1>
-        <Row>
+        <Row> 
           <Col col-md-4>
             <Card
               img = {respiracion}
@@ -131,6 +132,7 @@ const Servicio = () => {
         </Row>
       </div>
       <RedesSociales />
+      <Footer />
     </>
   )
 }

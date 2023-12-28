@@ -423,11 +423,33 @@ h1{
 
 /* FOOTER */
 
-#imagenFooter{
-    width: -120PX;
-    height: 120px;
+#imagenFooterLb{
+    width: 200px;
+    height: 100px;
+    margin-left: 12%;
+    font-family: cursive;
 }
 
-#margenCentroFono{
-    margin-left: 50%;
+#NIT{
+    margin-left: 35%;
+    margin-top: -60px;
+    color: #2E58A6;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#DERECHOS{
+    margin-left: 47%;
+    margin-top: -50px;
+    color: #2E58A6;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#ELABORADO{
+    margin-left: 68%;
+    margin-top: -50px;
+    color: #2E58A6;
+    font-size: 20px;
+    font-family: cursive;
 }
