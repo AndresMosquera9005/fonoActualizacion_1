@@ -16,7 +16,8 @@ function Mision() {
         <Col>
           <img src={imagenMision} alt="" id='imagenMision' />
         </Col>
-      </Row>    
+      </Row>
+      <hr />
     </div>    
   )
 }

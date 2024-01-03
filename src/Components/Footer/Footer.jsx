@@ -10,7 +10,7 @@ function Footer() {
       <img src={lc} alt="" id='imagenFooterLb' />
       <p id='NIT'>NIT 901611523</p>
       <p id='DERECHOS'>Todos los derechos reservados.</p>
-      <p id='ELABORADO'>Elaborado por Javier Mosquera</p>
+      <p id='ELABORADO'>Elaborado por Javier Andres "alias el papote"Mosquera Rodiguez</p>
     </div>
   ) 
 }

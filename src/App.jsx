@@ -21,7 +21,7 @@ const App = () => {
         </Routes>
       </Suspense>
     </Router>    
-  )  
+  )
 }
 
 export default App
