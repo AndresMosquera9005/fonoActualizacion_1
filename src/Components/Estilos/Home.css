@@ -163,16 +163,20 @@ body{
 /* MISION Y VISION */
 /* MISION */
 #diseñoMision{
-    margin-left: 10%;
-    margin-right: 20%;
+    margin-left: 200px;
+    margin-right: 170px;
     margin-top: 5%;
     font-size: 20px;
     border: 1px solid #00B2B0;
+    border-radius: 20px;
+    box-shadow: -2px -2px #2E58A6;
 }
+
 #mision{
     color: #00B2B0;
     font-family: cursive;
     margin-left: -70%;
+    text-shadow: -2px -2px #2E58A6;
 }
 
 #pMision{
@@ -185,29 +189,29 @@ body{
 
 /* VISION */
 #diseñoVision{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 200px;
+    margin-right: 170px;
     margin-top: 5%;
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px solid #00B2B0;
     border-radius: 20px;
+    box-shadow: 2px 2px #2E58A6; 
 }
 
 #vision{
     color: #00B2B0;
     font-family: cursive;
     margin-left: -110%;
-    /* text-align: justify; */
+    text-shadow: 2px 2px #2E58A6;
 }
 
 #pVision{
     color: #2E58A6 !important;
     font-family: cursive;
-    margin-left: -100%;
+    margin-left: -60%;
     margin-right: 10%;
     text-align: justify;
 }
-
 
 
 /* MISION VISION Y VALORES */
@@ -240,7 +244,6 @@ body{
 .parrafoValoresCompañia{
     color: white;
     font-family: cursive;
-    border: 1px solid #2E58A6;
     background: #2E58A6;
     border-radius: 20px;
     text-align: center;
@@ -251,16 +254,33 @@ body{
     font-size: 20px;
 }
 
-#imagenMision{
+#idTituloValoresCompañia{
+    text-shadow: 2px 2px #2E58A6;    
+}
+
+#imagenCompañia{
     height: 150px;
-    width: 200px;
+    width: 300px;
     opacity: 1;
-    margin-left: -40%;
+    margin-left: -60%;
     margin-top: 20%;
+}
+
+#listaCompania{
+    margin-left: -200px;
 }
 
 #imagenVision{
     margin-left: -100% ;
+}
+
+#divValoracion{
+    margin-top: 50px; 
+    margin-left: 200px;
+    margin-right: 170px;
+    border: 1px solid #00B2B0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 0px #2E58A6;
 }
 
 /* Preguntas */

@@ -32,7 +32,6 @@
     margin-right: 0;
 }
 
-
 #LogoHeader{
     width: 300px;
     height: 140px;
@@ -43,6 +42,7 @@
     color: #00B2B0;
     font-weight: 700;
     font-size: 20px;
+    text-decoration: none;
     /* background-color: blue;
     padding: 1%;
     width: 100px;

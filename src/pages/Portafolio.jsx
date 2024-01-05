@@ -11,21 +11,21 @@ function Portafolio() {
   return (
     <div id='fondo'>
       <div>
-        <h1 className='tituloPortafolio'>SERVICIOS DOMOCILIARIOS</h1>
+        <h1 className='tituloPortafolio'>SERVICIOS DOMICILIARIOS</h1>
         <Row>
           <Col col-md-4>
             <img src={imagen} alt="" className='imagenesPorta' />
           </Col>
           <Col col-md-4>
-            <h1 className='tituloPortafolio'>NUESTROS SERVISIOS</h1>
+            <h1 className='tituloPortafolio'>NUESTROS SERVICIOS</h1>
             <ul className='listaPortafolio'>              
-              <li>Orientación vocacional a estuadiente a de grado 11</li>
-              <li>Psicología</li>
-              <li>Terapia ocupacional</li>
-              <li>Fonoaudiología</li>
-              <li>Fisoterapia</li>
-              <li>Taller a padres</li>
-              <li>Taller a docentes</li>              
+              <li>Orientación vocacional a estuadiente a de grado 11.</li>
+              <li>Psicología.</li>
+              <li>Terapia ocupacional.</li>
+              <li>Fonoaudiología.</li>
+              <li>Fisoterapia.</li>
+              <li>Taller a padres.</li>
+              <li>Taller a docentes.</li>              
             </ul>        
           </Col>
         </Row>
@@ -36,12 +36,12 @@ function Portafolio() {
         <Row>    
           <Col col-md-4>
             <ul id='cuidadSalud' className='listaPortafolio'>
-              <li>Primera infancia</li>
-              <li>Infancia</li>
-              <li>Adolescencia</li>
-              <li>Juventud</li>
-              <li>Adultez</li>
-              <li>Vejez</li>
+              <li>Primera infancia.</li>
+              <li>Infancia.</li>
+              <li>Adolescencia.</li>
+              <li>Juventud.</li>
+              <li>Adultez.</li>
+              <li>Vejez.</li>
             </ul>
           </Col>
           <Col col-md-4 >

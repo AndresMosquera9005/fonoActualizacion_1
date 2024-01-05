@@ -20,7 +20,7 @@ const App = () => {
           <Route path="/servicio" element={ <Servicio/>  } />
         </Routes>
       </Suspense>
-    </Router>    
+    </Router>
   )
 }
 
