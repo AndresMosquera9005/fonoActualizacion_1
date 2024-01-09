@@ -16,15 +16,15 @@ const RedesSociales = () => {
     return (
         <div className='redesSociales'>
             
-            <a href={whatsappLink} target="_blank" rel="noopener noreferrer" >
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer" id="whatsapp-icon" >
                 <FontAwesomeIcon icon={faWhatsapp} id='wtp' className='separacionIconos' />
             </a>
             
-            <a href={intagramLink} target="_blank" rel="noopener noreferrer" >
+            <a href={intagramLink} target="_blank" rel="noopener noreferrer" id='intagram-icon'>
                 <FontAwesomeIcon icon={faInstagram } id='itm' className='separacionIconos' /> 
             </a>
 
-            <a href={tiktokLink} target="_blank" rel="noopener noreferrer" >
+            <a href={tiktokLink} target="_blank" rel="noopener noreferrer"  id='tiktok-icon'>
                 <FontAwesomeIcon icon={faTiktok} id='tk' className='separacionIconos' />
             </a>
 
