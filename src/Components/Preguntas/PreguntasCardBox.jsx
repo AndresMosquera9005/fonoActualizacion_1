@@ -23,7 +23,7 @@ function PreguntasCardBox() {
           <Col className='col-md-4'>
             <div className='cardPreguntas'>
               <h3 className='h3TitulosPreguntas'>¿QUÉ MEDIOS DE PAGO PUEDO UTILIZAR?</h3><hr />
-              <p className='pSutitulosPreguntas'>Recibimos medios de pago por medio de consignaciones bancarias,nequi y daviplata</p>
+              <p className='pSutitulosPreguntas'>Recibimos medios de pago por medio de consignaciones bancarias, Davivienda y Bancolombia</p>
             </div>
           </Col>
         </Row>

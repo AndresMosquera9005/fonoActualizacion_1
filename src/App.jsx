@@ -5,7 +5,8 @@ import MisionVision from "./pages/MisionVision.jsx"
 import Portafolio from "./pages/Portafolio.jsx"
 import Servicio from "./pages/Servicio.jsx"
 import Header from './Components/Header/Header.jsx'
-import Nosotros from './MisionVisionNosotros/Nosotros.jsx'
+//import Nosotros from './MisionVisionNosotros/Nosotros.jsx'
+import Nosotros from './pages/Nosotros.jsx'
 
 const App = () => {
   return(
@@ -21,7 +22,7 @@ const App = () => {
         </Routes>
       </Suspense>
     </Router>
-  )
+  ) 
 }
 
 export default App

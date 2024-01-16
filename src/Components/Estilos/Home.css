@@ -36,6 +36,10 @@ body{
     margin-left: -150px;    
 }
 
+#SERVICIOS{
+    margin-left: 200px;
+}
+
 .parafoColor {
     text-align: center;
     color: black !important;
@@ -51,14 +55,14 @@ body{
 
 .docD{  
     /* margin-top: 14%;
-    margin-left: -50%;
     width: 40% !important;
     height: 30%;
     border-radius: 2%; */
-    height: 75%;
+    height: 55%;
     width: 30%;
     border-radius: 20%;
-}
+    margin-left: -150px;
+} 
 
 /* #docD{
 
@@ -80,14 +84,14 @@ body{
 #parrafoPrincipal{
     color:#2E58A6 !important;
     margin-top: -9% !important;
-    margin-left: -10% !important;
+    margin-left: -50% !important;
     margin-right: 15%;
     text-align: justify;
 }
 
 #idTatianaParrafo{
     color:#2E58A6 !important;
-    margin-left: -100%;
+    margin-left: -150%;
     margin-right: 51%;
     font-size: 20px;
     text-align: justify;
@@ -163,7 +167,7 @@ body{
 /* MISION Y VISION */
 /* MISION */
 #diseñoMision{
-    margin-left: 200px;
+    margin-left: 300px;
     margin-right: 170px;
     margin-top: 5%;
     font-size: 20px;
@@ -189,7 +193,7 @@ body{
 
 /* VISION */
 #diseñoVision{
-    margin-left: 200px;
+    margin-left: 300px;
     margin-right: 170px;
     margin-top: 5%;
     font-size: 20px;
@@ -208,7 +212,7 @@ body{
 #pVision{
     color: #2E58A6 !important;
     font-family: cursive;
-    margin-left: -60%;
+    margin-left: -45%;
     margin-right: 10%;
     text-align: justify;
 }
@@ -277,7 +281,7 @@ body{
 
 #divValoracion{
     margin-top: 50px; 
-    margin-left: 200px;
+    margin-left: 300px;
     margin-right: 170px;
     border: 1px solid #00B2B0;
     border-radius: 20px;
@@ -465,7 +469,7 @@ h2{
     text-align: center;  
     padding: 10px; 
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-}
+} 
 
 #tiktok-icon{
     position: fixed; 
@@ -483,7 +487,7 @@ h2{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* NOSOTROS */
+/* NOSOTROS */ 
 
 h1{
     color: #2E58A6;
@@ -494,11 +498,11 @@ h1{
 #imagenFooterLb{
     width: 200px;
     height: 100px;
-    margin-left: 12%;
+    margin-left: 20%;
     font-family: cursive;
 }
 
-#NIT{
+#CENTROFONO{
     margin-left: 35%;
     margin-top: -60px;
     color: #2E58A6;
@@ -506,9 +510,9 @@ h1{
     font-family: cursive;
 }
 
-#DERECHOS{
-    margin-left: 47%;
-    margin-top: -50px;
+#NUMNIT{
+    margin-left: 55%;
+    margin-top: -45px;
     color: #2E58A6;
     font-size: 20px;
     font-family: cursive;

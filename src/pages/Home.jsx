@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import docD from "../image/doctora/doctora_d.jpg";
+//import docD from "../image/doctora/doctora_d.jpg";
 //import docD from "../image/doctora/doc_recortado.png";
-import doctoraDos from "../image/doctora/DOCTORA2_F.jpg"
+//import doctoraDos from "../image/doctora/DOCTORA2_F.jpg"
 import correo from "../icon/correoAzul.png";
 import horario from "../icon/horarioAtencion.png";
 import telefono from "../icon/telefoAzul.png";
@@ -10,34 +10,16 @@ import PreguntasCardBox from '../Components/Preguntas/PreguntasCardBox';
 import RedesSociales from '../Components/RedesSociales/RedesSociales';
 import Footer from '../Components/Footer/Footer';
 import "../Components/Estilos/Home.css"
+import Mision from '../MisionVisionNosotros/Mision';
+import Vision from '../MisionVisionNosotros/Vision';
+import Valoracion from '../MisionVisionNosotros/ValoracionCompañia';
  
 function Home() {
   return ( 
     <div id='div'>
-      <h1 id='fono'>NOSOTROS</h1>
-      <Row>
-        <Col className="col-md-4" >
-          <img src={docD} alt="" className='docD' id='docD' />   
-        </Col>
-        <Col>
-          <p id='idTatianaParrafo'>TATIANA PARRA VICTORIA FONOAUDIÓLOGA FOUNDER ESPECIALISTA EN GERENCIA DE LA CALIDAD EN SALUD. AMPLIA EXPERIENCIA EN COORDINACIÓN DE PROCESOS ADMINISTRATIVOS Y TERAPÉUTICOS. GERENTE DEL CENTRO FONOAUDIOLÓGICO DE REHABILITACIÓN. </p>
-        </Col>
-      </Row>
-      <div className='divDoctoraDos'>
-        <Row>
-          <Col className="col-md-4" >
-            <p id='parrafoPrincipal' className='parafoColor'>DIANA ERAZO MUÑOZ TERAPEUTA OCUPACIONAL CO-FOUNDER LÍDER EN PROCESOS DE APOYO PEDAGÓGICO. AMPLIA EXPERIENCIA EN PROCESOS TERAPÉUTICOS DE REHABILITACIÓN EINCLUSIÓN EDUCATIVA. DIRECTORA DEL CENTRO FONOAUDIOLÓGICO DE REHABILITACIÓN.</p>
-          </Col>
-          <Col >
-            <div className="col-md-4">
-              <img src={doctoraDos} alt="" id='doctoraDos' />     
-            </div>
-          </Col>
-        </Row>
-
-      </div>
-
-      <p className='parrafo'>Somos una de las empresas de fonoaudiología que desempeña un papel importante en la mejora de la calidad de vida de las personas con trastornos de la comunicación. Al proporcionar servicios de evaluación, diagnóstico y tratamiento, las empresas de fonoaudiología pueden ayudar a las personas a desarrollar sus habilidades de comunicación y a participar plenamente en la sociedad.</p>
+      <Mision />
+      <Vision />
+      <Valoracion />
 
       <Row id='Row2'>
         <Col className="col-md-4">  
@@ -68,15 +50,12 @@ function Home() {
         </Col>
       </Row>
 
-      {/* <h1 className='sobreNosotros'>SOBRE NOSOTROS</h1>
-      <p className='parrafo'>Creemos que el servicio es una expresión del amor y la compasión. Cuando servimos a los demás, estamos poniendo nuestro corazón en acción. Estamos demostrando que nos importan, que nos preocupamos por su bienestar.</p> */}
-
       <PreguntasCardBox />
       <RedesSociales />
       <Footer />
     </div>
   )
-}
+} 
 
 export default Home
 

@@ -8,9 +8,9 @@ function Footer() {
       <hr />
       {/* <h1>Centro fonoaudiologico</h1> */}
       <img src={lc} alt="" id='imagenFooterLb' />
-      <p id='NIT'>NIT 901611523</p>
-      <p id='DERECHOS'>Todos los derechos reservados.</p>
-      <p id='ELABORADO'>Elaborado por Javier Andres "alias el papote"Mosquera Rodiguez</p>
+      <p id='CENTROFONO'>Centro fonoaudiologico.</p>
+      <p id='NUMNIT'>NIT 901611523.</p>
+      <p id='ELABORADO'>Todos los derechos reservados.</p>
     </div>
   ) 
 }

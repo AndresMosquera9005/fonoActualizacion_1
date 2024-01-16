@@ -28,8 +28,8 @@ const RedesSociales = () => {
                 <FontAwesomeIcon icon={faTiktok} id='tk' className='separacionIconos' />
             </a>
 
-        </div>
-    )
+        </div> 
+    )  
 }
 
 export default RedesSociales

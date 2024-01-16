@@ -22,13 +22,13 @@ const Servicio = () => {
   return (
     <>    
       <div id='div' className='tamañosImagenes'>
-        <h1 className='tituloServicio'>SERVICIOS</h1>
+        <h1 id='SERVICIOS' className='tituloServicio'>SERVICIOS</h1>
         <Row> 
           <Col col-md-4>
             <Card
               img = {respiracion}
               title = "TERAPIA RESPIRATORIA"
-              description ="DESARROLLA TÉCNICAS APLICADAS PARA HABILITAR LA SECUENCIA MOTORA, RECUPERAR FUNCIONES DE LOCOMOCIÓN Y/O REHABILITAR EL SISTEMA OSTEOMUSCULAR, PARTIENDO DE LA ACTIVIDAD REFLEJA, EL TONO MUSCULAR Y LOS PATRONES FUNCIONALES INDIVIDUALES E INTEGRALES." 
+              description ="Desarrrolla técnicas aplicadas para habilitar la secuencia motora, recuperar funciones de locomoción y/o rehabilitar el sistema osteomuscular, partiendo de la activida refleja, el tono muscular y los patrones funcionales individuales e integral." 
             />
           </Col>
           <Col col-md-4>
@@ -135,6 +135,6 @@ const Servicio = () => {
       <Footer />
     </>
   )
-}
+} 
 
 export default Servicio

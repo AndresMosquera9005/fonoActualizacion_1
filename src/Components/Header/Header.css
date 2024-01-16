@@ -50,11 +50,13 @@
     border-radius: 30px; */
 }
 
-#fondoHeader{
-    /* position: fixed; */
+/* #fondoHeader{
+    position: fixed; 
     top: 0;
-    z-index: 100;
-}
+    left: 0;
+    width: 100%;
+    z-index: 100; 
+} */
 
 #iconoCasa{
     margin-left: 110%;

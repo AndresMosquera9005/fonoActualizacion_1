@@ -52,24 +52,22 @@ function Portafolio() {
       </div>
       <div>
         <h1 className='tituloPortafolio'>IMPORTANCIA DE LA TERAPIA </h1>
-        <p className='significados'>Una profesión importante que tiene un impacto positivo en la vida de muchas personas. Los fonoaudiólogos ayudan a las personas a superar los trastornos de la comunicación, lo que puede mejorar su calidad de vida en muchos aspectos.</p>
+        <p className='significados'>Profesiones importantes que tiene un impacto positivo en la vida de muchas personas. Mejorando su calidad de vida.</p>
         <h1 className='tituloPortafolio'>DESEMPEÑO FUNDAMENTAL</h1>
         <ul className='significados'>
-          <li>EDUCACIÓN: Los fonoaudiólogos trabajan en las escuelas para ayudar a los estudiantes con trastornos del lenguaje y el habla.</li>
-          <li>SALUD: Los fonoaudiólogos trabajan en los hospitales, las clínicas y otros centros de atención médica para evaluar y tratar a los pacientes con trastornos de la comunicación.</li>
-          <li>REHABILITACIÓN: Los fonoaudiólogos trabajan en los centros de rehabilitación para ayudar a las personas que han sufrido lesiones o enfermedades que han afectado a su comunicación.</li>
-          
+          <li>EDUCACIÓN: Trabajamos en las instituciones educativas para ayudar a los estudiantes en su proceso de desarrollo.</li>
+          <li>SALUD: Trabajamos en centro de atención medica para evaluar y tratar proceso de desarrrollo.</li>          
         </ul>
       </div>
       <div>
         <h1 className='tituloPortafolio'>METODO DE LA EVALUACIÓN </h1>
-        <p className='significados'> Utilizan una variedad de métodos de evaluación para determinar la causa de un trastorno de la comunicación. Estos métodos pueden incluir:</p>
+        <p className='significados'> Utilizamos metodos de evaluación para determinar las necesidades de nuestros usuarios.</p>
         <ul className='significados'>
-          <li>Historia clínica: El fonoaudiólogo recopila información sobre el historial médico, el desarrollo y el comportamiento del paciente.</li>
-          <li>Examen físico: El fonoaudiólogo realiza un examen físico de la cabeza, el cuello y la boca del paciente.</li>
-          <li>Pruebas de lenguaje: Las pruebas de lenguaje evalúan las habilidades de comprensión y expresión del lenguaje del paciente.</li>
-          <li>Pruebas de habla: Las pruebas de habla evalúan la producción del habla del paciente.</li>
-          <li>Pruebas de voz: Las pruebas de voz evalúan la calidad y la producción de la voz del paciente.</li>
+          <li>Historia clínica: antecendentes y desarrollo de la nuñez según corresponda. </li>
+          <li>valoración fisioterapia</li>
+          <li>valoración  terapia ocupacional </li>
+          <li>valoración en psicoliogia</li>
+          <li>valoración en fonoaudilogía </li>
         </ul>
 
       </div>

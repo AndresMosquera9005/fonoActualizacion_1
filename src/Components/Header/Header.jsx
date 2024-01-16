@@ -7,7 +7,7 @@ import "./Header.css"
 
 const Header = () => {
   return (    
-    <div className='Menu' id="fondoHeader">
+    <div className='Menu' id="fondoHeader"> 
       <img src={lb} id='LogoHeader'/>
       <div>
         <img src={iconoCasaAzul} id='iconoCasa' />
@@ -32,9 +32,7 @@ const Header = () => {
         </ul>          
       </nav>
       <Outlet/>
-    </div>
-
-    
+    </div>    
   ) 
 }
 
