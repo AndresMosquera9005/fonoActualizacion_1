@@ -28,7 +28,7 @@ const Servicio = () => {
             <Card
               img = {respiracion}
               title = "TERAPIA RESPIRATORIA"
-              description ="Desarrrolla técnicas aplicadas para habilitar la secuencia motora, recuperar funciones de locomoción y/o rehabilitar el sistema osteomuscular, partiendo de la activida refleja, el tono muscular y los patrones funcionales individuales e integral." 
+              description ="Desarrolla técnicas aplicadas para habilitar la secuencia motora, recuperar funciones de locomoción y/o rehabilitar el sistema osteomuscular, partiendo de la activida refleja, el tono muscular y los patrones funcionales individuales e integral." 
             />
           </Col>
           <Col col-md-4>
@@ -51,8 +51,8 @@ const Servicio = () => {
           <Col col-md-4 >
             <Card 
               img = {psicologia}
-              title = "PSICOLOGÍA"
-              description ="EVALÚA E INTERVIENE EN TODOS AQUELLOS ASPECTOS COGNITIVOS, EMOCIONALES O CONDUCTUALES QUE PUEDAN ESTAR INTERFIRIENDO EN EL ADECUADO AJUSTE DEL NIÑO EN SU MEDIO. " 
+              title = "PSICOLOGÍA" 
+              description ="Evalúa e interviene en todos aquellos aspectos cognitivos, emocionales o conductuales que puedan estar interfiriendo en el adecuado ajuste del niño en su medio." 
             />
           </Col>
 
@@ -60,16 +60,15 @@ const Servicio = () => {
             <Card 
               img = {TerapiaOcupacional}
               title = "TERAPIA OCUPACIONAL"
-              description ="AYUDA A DESARROLLAR FUNCIONES Y HABILIDADES COGNITIVAS, EMOCIONALES, SENSORIALES Y MOTORAS, PARA QUE EL NIÑO O NIÑA PUEDA DESEMPEÑARSE EFICIENTEMENTE.
-              " 
+              description ="Ayuda a desarrollar funciones y habilidades cognitivas, emocionales, sensoriales y motoras, para que el niño o niña pueda desempeñarse eficientemente." 
             />
           </Col>
 
           <Col col-md-4 >
             <Card 
-              img = {Fonoaudiologia}
+              img = {terapiaLenguaje}
               title = "FONOAUDIOLOGÍA"
-              description ="ES UNA DICIPLINA DE LA SALUD QUE ESTUDIA LA COMUNICACIÓN HUMANA Y LA DICIPLINA COMUNICATIVA."
+              description ="Es una diciplina de la salud que estudia la comunicación humana y la disciplina comunicativa."
             />
           </Col>
         </Row>
@@ -79,21 +78,21 @@ const Servicio = () => {
             <Card 
               img = {Fisioterapia}
               title = "FISIOTERAPIA"
-              description ="DESARROLLA TÉCNICAS APLICADAS PARA HABILITAR LA SECUENCIA MOTORA, RECUPERAR FUNCIONES DE LOCOMOCIÓN Y/O REHABILITAR EL SISTEMA OSTEOMUSCULAR, PARTIENDO DE LA ACTIVIDAD REFLEJA, EL TONO MUSCULAR Y LOS PATRONES FUNCIONALES INDIVIDUALES E INTEGRALES."
+              description ="Desarrolla técnicas aplicadas para habilitar la secuencia motora, recuperar funciones de locomoción y/o rehabilitar el sistema osteomuscular, partiendo de la actividad refleja, el tono muscular y los patrones funcionales individuales e integrales."
             />
           </Col>
           <Col>
             <Card 
               img = {padres}
               title = "TALLER A PADRES"
-              description ="APOYO PEDAGÓGICO DONDE SE LE FACILITA A LAS FAMILIAS NUEVAS TÉCNICAS Y ESTRATEGIAS, QUE FUNCIONAN COMO RECURSOS PARA LA EDUCACIÓN DE SUS HIJOS."
+              description ="Apoyo pedagógico donde se le facilita a las familias nuevas técnicas y estrategias, que funcionan como recursos para la educación de sus hijos."
             />
           </Col>
           <Col className='col-md-4'>
             <Card 
               img = {docentes}
               title = "TALLER A DOCENTES"
-              description = "TIENEN COMO PROPÓSITO APORTAR ELEMENTOS QUE FORTALEZCAN EL DISEÑO DE ESTRATEGIAS DIDÁCTICAS PARA FAVORECER EL PROCESO DE ENSEÑANZA DE LA LECTURA Y ESCRITURA Y LAS MATEMATICAS POR PARTE DE LAS MAESTRAS Y MAESTROS. "
+              description = "Tienen como propósito aportar elementos que fortalezcan el diseño de estrategias didácticas para favorecer el proceso de enseñanza de la lectura y escritura y las matematicas por parte de las maestras y maestros."
             />
           </Col>
         </Row>
@@ -103,36 +102,43 @@ const Servicio = () => {
             <Card
               img = {asesoriaG}
               title = "ASESORÍA GRAUTITA"
-              description = "SE OFRECE SIN COSTO  A LAS PERSONAS QUE LO NECESITAN. PUEDE OFRECERSE POR PARTE DE LAS ORGANIZACIONES GUBERNAMENTALES, NO GUBERNAMENTALES, O PRIVADOS."
+              description = "Se ofrece sin costoa las personas que lo necesitan. puede ofrecerse por parte de las organizaciones gubernamentales, no gubernamentales, o privados."
             />          
           </Col>
           <Col>
+            <Card 
+              img = {domicilio}
+              title = "SERVICIOS DOMICILIARIOS "
+              description = "Los servicios domiciliarios son los servicios de atención médica, social o de apoyo que se brindan en el hogar de una persona."
+            />
+          </Col>
+          {/* <Col>
           <Card
               img = {asosacion}
               title = "ASOCIONES DE IPS"
-              description = "SON DOS TIPOS DE ORGANIZACIONES QUE PUEDEN TRABAJAR JUNSTAS PARA MEJORAR LA ATENCIÓN MÉDICA."
+              description = "Son dos tipos de organizaciones que pueden trabajar junstas para mejorar la atención médica."
             />  
           </Col>
           <Col>
             <Card
               img = {asosacion}
               title = "CONVENIOS CON EMPRESAS"
-              description = "ES UN ACUERDO ENTRE UNA INSTITUCIÓN EDUCATIVA Y UNA EMPRESA QUE TIENE COMO OBJETIVO ESTABLECES UNA RELACIÓN DE COLABORACIÓN ENTRE AMBAS PARTES."
+              description = "Es un acuerdo entre una institución educativa y una empresa que tiene como objetivo estableces una relación de colaboración entre ambas partes."
             />
-          </Col>
+          </Col> */}
         </Row>
-        <Row>
+        {/* <Row>
           <Col>
             <Card 
               img = {domicilio}
               title = "SERVICIOS DOMICILIARIOS "
-              description = "LOS SERVICIOS DOMICILIARIOS SON LOS SERVICIOS DE ATENCIÓN MÉDICA, SOCIAL O DE APOYO QUE SE BRINDAN EN EL HOGAR DE UNA PERSONA."
+              description = "Los servicios domiciliarios son los servicios de atención médica, social o de apoyo que se brindan en el hogar de una persona."
             />
           </Col>
-        </Row>
+        </Row> */}
       </div>
       <RedesSociales />
-      <Footer />
+      <Footer /> 
     </>
   )
 } 

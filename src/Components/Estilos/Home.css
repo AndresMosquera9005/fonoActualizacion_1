@@ -36,7 +36,7 @@ body{
     margin-left: -150px;    
 }
 
-#SERVICIOS{
+#SERVICIOS{ 
     margin-left: 200px;
 }
 
@@ -144,6 +144,10 @@ body{
 
 
 /* PORTAFOLIO */
+
+#rowPortafolio{
+    margin-left: -200px;
+}
 
 .subTitulos{
     animation: enrollar 1s linear infinite;

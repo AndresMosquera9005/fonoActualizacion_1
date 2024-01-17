@@ -6,6 +6,9 @@ import adulto2 from "../image/sin fondo/etapaBebeAdulto2.png"
 import RedesSociales from '../Components/RedesSociales/RedesSociales'
 import "../Components/Estilos/Home.css"
 import Footer from '../Components/Footer/Footer'
+import Card from '../Components/Servicios/Card'
+import asosacion from "../icon/imagesAsociaciones e IPS.png"
+import colegio from "../icon/colegio.png"
 
 function Portafolio() {
   return (
@@ -63,14 +66,41 @@ function Portafolio() {
         <h1 className='tituloPortafolio'>METODO DE LA EVALUACIÓN </h1>
         <p className='significados'> Utilizamos metodos de evaluación para determinar las necesidades de nuestros usuarios.</p>
         <ul className='significados'>
-          <li>Historia clínica: antecendentes y desarrollo de la nuñez según corresponda. </li>
+          <li>Historia clínica: antecendentes y desarrollo de la niñez según corresponda. </li>
           <li>valoración fisioterapia</li>
           <li>valoración  terapia ocupacional </li>
           <li>valoración en psicoliogia</li>
           <li>valoración en fonoaudilogía </li>
         </ul>
-
       </div>
+      
+      <h1 className='tituloPortafolio'>NUESTROS ALIADOS</h1>
+      <div id='rowPortafolio'>
+        <Row>
+          <Col>
+            <Card
+              img = {asosacion}
+              title = "ASOCIONES DE IPS"
+              description = "Son dos tipos de organizaciones que pueden trabajar junstas para mejorar la atención médica."
+            />  
+          </Col>
+          <Col>
+            <Card
+              img = {asosacion}
+              title = "CONVENIOS CON EMPRESAS"
+              description = "Es un acuerdo entre una institución educativa y una empresa que tiene como objetivo estableces una relación de colaboración entre ambas partes."
+            />
+          </Col>
+          <Col>
+          <Card
+            img = {colegio}
+            title = "INSTITUCIONES EDUCATIVAS"
+            description = "Jadines etapa de primaria y bachirrerato." 
+          />
+          </Col>
+        </Row>
+      </div>
+
       <div id='redesSociales'>
         <RedesSociales />
       </div>
