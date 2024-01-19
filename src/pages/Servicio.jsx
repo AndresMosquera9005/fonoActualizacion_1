@@ -103,7 +103,7 @@ const Servicio = () => {
             <Card
               img = {asesoriaG}
               title = "ASESORÍA GRAUTITA"
-              description = "Se ofrece sin costoa las personas que lo necesitan. puede ofrecerse por parte de las organizaciones gubernamentales, no gubernamentales, o privados."
+              description = "Se ofrece sin costo las personas que lo necesitan. puede ofrecerse por parte de las organizaciones gubernamentales, no gubernamentales, o privados."
             />          
           </Col>
           {/* <Col>
