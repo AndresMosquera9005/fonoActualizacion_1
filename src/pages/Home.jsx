@@ -9,10 +9,10 @@ import telefono from "../icon/telefoAzul.png";
 import PreguntasCardBox from '../Components/Preguntas/PreguntasCardBox';
 import RedesSociales from '../Components/RedesSociales/RedesSociales';
 import Footer from '../Components/Footer/Footer';
-import "../Components/Estilos/Home.css"
 import Mision from '../MisionVisionNosotros/Mision';
 import Vision from '../MisionVisionNosotros/Vision';
 import Valoracion from '../MisionVisionNosotros/ValoracionCompañia';
+import "../Components/Estilos/Home.css"
  
 function Home() {
   return ( 
@@ -52,7 +52,9 @@ function Home() {
 
       <PreguntasCardBox />
       <RedesSociales />
-      <Footer />
+      <div id='footerHome'>
+        <Footer />
+      </div>
     </div>
   )
 } 

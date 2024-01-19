@@ -95,7 +95,7 @@ function Portafolio() {
           <Card
             img = {colegio}
             title = "INSTITUCIONES EDUCATIVAS"
-            description = "Jadines etapa de primaria y bachirrerato." 
+            description = "Jadines etapa de primaria y bachillerato." 
           />
           </Col>
         </Row>

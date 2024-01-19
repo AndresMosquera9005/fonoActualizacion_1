@@ -1,5 +1,5 @@
 .Menu{
-    /* background-color: black; */
+    background-color: #E8F8F3;
     /* color: white !important; */
     padding: 10px;
     display: flex;
@@ -10,7 +10,7 @@
     margin-top: -1%;
     top: 0;
     z-index: 100;
-}
+} 
 
 #ListaMenu{
     margin-right: 10%;
@@ -43,8 +43,7 @@
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
-    /* background-color: blue;
-    padding: 1%;
+    /* padding: 1%;
     width: 100px;
     height: 40px;
     border-radius: 30px; */

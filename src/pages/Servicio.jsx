@@ -33,11 +33,12 @@ const Servicio = () => {
           </Col>
           <Col col-md-4>
             <Card 
-              img = {terapiaLenguaje}
-              title = "TERAPIA LENGUAJE"
-              description ="Esta se entiende como la capacidad que tiene el ser humano de comprender lo que escucha o lee y cómo usa las palabras para comunicar lo que piensa." 
+              img = {domicilio}
+              title = "SERVICIOS DOMICILIARIOS "
+              description = "Los servicios domiciliarios son los servicios de atención médica, social o de apoyo que se brindan en el hogar de una persona."
             />
           </Col>
+          
           <Col col-md-4>
             <Card 
               img = {grado}
@@ -105,13 +106,13 @@ const Servicio = () => {
               description = "Se ofrece sin costoa las personas que lo necesitan. puede ofrecerse por parte de las organizaciones gubernamentales, no gubernamentales, o privados."
             />          
           </Col>
-          <Col>
+          {/* <Col>
             <Card 
               img = {domicilio}
               title = "SERVICIOS DOMICILIARIOS "
               description = "Los servicios domiciliarios son los servicios de atención médica, social o de apoyo que se brindan en el hogar de una persona."
             />
-          </Col>
+          </Col> */}
           {/* <Col>
           <Card
               img = {asosacion}

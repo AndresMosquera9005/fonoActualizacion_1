@@ -4,7 +4,7 @@ import "../Estilos/Home.css"
 
 function Footer() {
   return (
-    <div>
+    <div id='fondoFooter'>
       <hr />
       {/* <h1>Centro fonoaudiologico</h1> */}
       <img src={lc} alt="" id='imagenFooterLb' />
@@ -12,7 +12,7 @@ function Footer() {
       <p id='NUMNIT'>NIT 901611523.</p>
       <p id='ELABORADO'>Todos los derechos reservados.</p>
     </div>
-  ) 
+  )
 }
 
 export default Footer

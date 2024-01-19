@@ -40,7 +40,7 @@ function PreguntasCardBox() {
           <Col className='col-md-4'>
             <div className='cardPreguntas'>
               <h3 className='h3TitulosPreguntas'>¿ QUÉ HORARIOS TIENEN DISPONIBLE? </h3><hr />
-              <p className='pSutitulosPreguntas'>Manejamos horarios flexibles, de lunes a viernes de 7:00 AM a 17:00 PM, y los días sábados de 8:00 AM a 12:00 PM.</p>
+              <p className='pSutitulosPreguntas'>Manejamos horarios flexibles, de Lunes a Viernes de 7:00 AM a 17:00 PM, y Sábados de 8:00 AM a 12:00 PM.</p>
             </div>
           </Col>          
         </Row>
